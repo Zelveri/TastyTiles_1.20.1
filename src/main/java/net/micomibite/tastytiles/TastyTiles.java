@@ -1,6 +1,7 @@
 package net.micomibite.tastytiles;
 
 import com.mojang.logging.LogUtils;
+import net.micomibite.tastytiles.block.ModBlocks;
 import net.micomibite.tastytiles.item.ModCreativeModeTabs;
 import net.micomibite.tastytiles.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class TastyTiles
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

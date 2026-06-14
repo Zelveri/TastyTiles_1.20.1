@@ -1,6 +1,7 @@
 package net.micomibite.tastytiles.item;
 
 import net.micomibite.tastytiles.TastyTiles;
+import net.micomibite.tastytiles.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tasty_tiles_tab"))
             .displayItems((pParameters,pOutput) -> {
             pOutput.accept(ModItems.CERAMIC_MIXTURE.get());
+
+            pOutput.accept(ModBlocks.RED_PITTER_TILE.get());
         })
         .build());
 
