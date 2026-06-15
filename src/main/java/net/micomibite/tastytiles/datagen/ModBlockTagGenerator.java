@@ -19,9 +19,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RED_PITTER_TILE.get())
-                .add(ModBlocks.RED_PITTER_TILE_SLAB.get())
-                .add(ModBlocks.RED_PITTER_TILE_STAIRS.get());
-
+                .add(
+                        ModBlocks.RED_PITTER_TILE.get(),
+                        ModBlocks.RED_PITTER_TILE_SLAB.get(),
+                        ModBlocks.RED_PITTER_TILE_STAIRS.get()
+                );
     }
 }

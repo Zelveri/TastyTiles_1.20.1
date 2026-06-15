@@ -29,6 +29,9 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.RED_PITTER_TILE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
 
+    public static final RegistryObject<Block> RED_PITTER_TILE_WALL = registerBlock("red_pitter_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

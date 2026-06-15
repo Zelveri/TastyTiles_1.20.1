@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.WallBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -24,6 +25,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         genHorizontalSBI(ModBlocks.RED_PITTER_TILE.get(), buildSimpleBlockWithRenderType("red_pitter_tile", "solid") );
         genSimpleSlabsSBI(ModBlocks.RED_PITTER_TILE_SLAB.get(), ModBlocks.RED_PITTER_TILE.get());
         stairsBlock(((StairBlock) ModBlocks.RED_PITTER_TILE_STAIRS.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.RED_PITTER_TILE_WALL.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
