@@ -6,6 +6,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -19,9 +20,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         //blockWithItem(ModBlocks.RED_PITTER_TILE);
-        genHorizontalSBI(ModBlocks.RED_PITTER_TILE.get(), buildSimpleBlockWithRenderType("red_pitter_tile", "solid") );
         //slabBlock(((SlabBlock) ModBlocks.RED_PITTER_TILE_SLAB.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
+        genHorizontalSBI(ModBlocks.RED_PITTER_TILE.get(), buildSimpleBlockWithRenderType("red_pitter_tile", "solid") );
         genSimpleSlabsSBI(ModBlocks.RED_PITTER_TILE_SLAB.get(), ModBlocks.RED_PITTER_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.RED_PITTER_TILE_STAIRS.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

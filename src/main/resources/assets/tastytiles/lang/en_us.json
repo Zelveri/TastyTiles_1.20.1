@@ -3,5 +3,9 @@
 
   "block.tastytiles.red_pitter_tile": "Red Pitter Tile",
 
+  "block.tastytiles.red_pitter_tile_slab": "Red Pitter Tile Slab",
+
+  "block.tastytiles.red_pitter_tile_stairs": "Red Pitter Tile Stairs",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

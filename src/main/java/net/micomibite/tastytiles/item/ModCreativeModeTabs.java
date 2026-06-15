@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModBlocks.RED_PITTER_TILE.get());
 
             pOutput.accept(ModBlocks.RED_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.RED_PITTER_TILE_STAIRS.get());
         })
         .build());
 
