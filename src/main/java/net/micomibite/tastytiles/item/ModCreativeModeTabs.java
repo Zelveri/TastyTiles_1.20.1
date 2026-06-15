@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModItems.CERAMIC_MIXTURE.get());
 
             pOutput.accept(ModBlocks.RED_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.RED_PITTER_TILE_SLAB.get());
         })
         .build());
 

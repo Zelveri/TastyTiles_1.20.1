@@ -4,10 +4,7 @@ import net.micomibite.tastytiles.TastyTiles;
 import net.micomibite.tastytiles.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GlazedTerracottaBlock;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +19,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RED_PITTER_TILE = registerBlock("red_pitter_tile",
             () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)) {
+            });
+
+    public static final RegistryObject<Block> RED_PITTER_TILE_SLAB = registerBlock("red_pitter_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB)) {
             });
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
