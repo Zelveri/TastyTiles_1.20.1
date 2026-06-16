@@ -20,12 +20,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        //blockWithItem(ModBlocks.RED_PITTER_TILE);
-        //slabBlock(((SlabBlock) ModBlocks.RED_PITTER_TILE_SLAB.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
-        genHorizontalSBI(ModBlocks.RED_PITTER_TILE.get(), buildSimpleBlockWithRenderType("red_pitter_tile", "solid") );
-        genSimpleSlabsSBI(ModBlocks.RED_PITTER_TILE_SLAB.get(), ModBlocks.RED_PITTER_TILE.get());
-        stairsBlock(((StairBlock) ModBlocks.RED_PITTER_TILE_STAIRS.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
-        wallBlock(((WallBlock) ModBlocks.RED_PITTER_TILE_WALL.get()), blockTexture(ModBlocks.RED_PITTER_TILE.get()));
+        //blockWithItem(ModBlocks.BRICK_PITTER_TILE);
+        //slabBlock(((SlabBlock) ModBlocks.BRICK_PITTER_TILE_SLAB.get()), blockTexture(ModBlocks.BRICK_PITTER_TILE.get()), blockTexture(ModBlocks.BRICK_PITTER_TILE.get()));
+        genHorizontalSBI(ModBlocks.BRICK_PITTER_TILE.get(), buildSimpleBlockWithRenderType("brick_pitter_tile", "solid") );
+        genSimpleSlabsSBI(ModBlocks.BRICK_PITTER_TILE_SLAB.get(), ModBlocks.BRICK_PITTER_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.BRICK_PITTER_TILE_STAIRS.get()), blockTexture(ModBlocks.BRICK_PITTER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.BRICK_PITTER_TILE_WALL.get()), blockTexture(ModBlocks.BRICK_PITTER_TILE.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

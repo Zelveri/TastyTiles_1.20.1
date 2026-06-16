@@ -1,8 +1,8 @@
 {
   "values": [
-    "tastytiles:red_pitter_tile",
-    "tastytiles:red_pitter_tile_slab",
-    "tastytiles:red_pitter_tile_stairs",
-    "tastytiles:red_pitter_tile_wall"
+    "tastytiles:brick_pitter_tile",
+    "tastytiles:brick_pitter_tile_slab",
+    "tastytiles:brick_pitter_tile_stairs",
+    "tastytiles:brick_pitter_tile_wall"
   ]
 }

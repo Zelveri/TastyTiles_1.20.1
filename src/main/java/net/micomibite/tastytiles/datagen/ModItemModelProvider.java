@@ -22,8 +22,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.CERAMIC_MIXTURE);
 
-        evenSimplerBlockItem(ModBlocks.RED_PITTER_TILE_STAIRS);
-        wallItem(ModBlocks.RED_PITTER_TILE_WALL, ModBlocks.RED_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.BRICK_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.BRICK_PITTER_TILE_WALL, ModBlocks.BRICK_PITTER_TILE);
 
     }
 

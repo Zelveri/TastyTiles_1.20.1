@@ -1,13 +1,13 @@
 {
   "item.tastytiles.ceramic_mixture": "Ceramic Mixture",
 
-  "block.tastytiles.red_pitter_tile": "Red Pitter Tile",
+  "block.tastytiles.brick_pitter_tile": "Brick Pitter Tile",
 
-  "block.tastytiles.red_pitter_tile_slab": "Red Pitter Tile Slab",
+  "block.tastytiles.brick_pitter_tile_slab": "Brick Pitter Tile Slab",
 
-  "block.tastytiles.red_pitter_tile_stairs": "Red Pitter Tile Stairs",
+  "block.tastytiles.brick_pitter_tile_stairs": "Brick Pitter Tile Stairs",
 
-  "block.tastytiles.red_pitter_tile_wall": "Red Pitter Tile Wall",
+  "block.tastytiles.brick_pitter_tile_wall": "Brick Pitter Tile Wall",
 
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

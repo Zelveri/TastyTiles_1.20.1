@@ -22,13 +22,13 @@ public class ModCreativeModeTabs {
             .displayItems((pParameters,pOutput) -> {
             pOutput.accept(ModItems.CERAMIC_MIXTURE.get());
 
-            pOutput.accept(ModBlocks.RED_PITTER_TILE.get());
+            pOutput.accept(ModBlocks.BRICK_PITTER_TILE.get());
 
-            pOutput.accept(ModBlocks.RED_PITTER_TILE_SLAB.get());
+            pOutput.accept(ModBlocks.BRICK_PITTER_TILE_SLAB.get());
 
-            pOutput.accept(ModBlocks.RED_PITTER_TILE_STAIRS.get());
+            pOutput.accept(ModBlocks.BRICK_PITTER_TILE_STAIRS.get());
 
-            pOutput.accept(ModBlocks.RED_PITTER_TILE_WALL.get());
+            pOutput.accept(ModBlocks.BRICK_PITTER_TILE_WALL.get());
         })
         .build());
 

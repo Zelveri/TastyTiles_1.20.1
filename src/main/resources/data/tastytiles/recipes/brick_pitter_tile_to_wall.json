@@ -3,13 +3,14 @@
   "category": "blocks",
 
   "key": {
-    "A": {"item": "tastytiles:red_pitter_tile"}
+    "A": {"item": "tastytiles:brick_pitter_tile"}
   },
   "pattern": [
+    "AAA",
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:red_pitter_tile_slab",
+    "item": "tastytiles:brick_pitter_tile_wall",
     "count": 6
   }
 }

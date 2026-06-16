@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tastytiles:red_pitter_tile_wall"
+          "name": "tastytiles:brick_pitter_tile"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tastytiles:blocks/red_pitter_tile_wall"
+  "random_sequence": "tastytiles:blocks/brick_pitter_tile"
 }
