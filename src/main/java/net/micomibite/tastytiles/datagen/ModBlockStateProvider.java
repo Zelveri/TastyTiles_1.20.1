@@ -4,10 +4,7 @@ import net.micomibite.tastytiles.TastyTiles;
 import net.micomibite.tastytiles.block.ModBlocks;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -59,6 +56,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.PINK_PITTER_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_PITTER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.PINK_PITTER_TILE_WALL.get()), blockTexture(ModBlocks.PINK_PITTER_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.EVE_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_summer_tile", "solid") );
+        genSimpleSlabsSBI(ModBlocks.EVE_SUMMER_TILE_SLAB.get(), ModBlocks.EVE_SUMMER_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.EVE_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_SUMMER_TILE.get()));
+
+        genPillarRotationSBI((RotatedPillarBlock) ModBlocks.EVE_LINED_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_lined_summer_tile", "solid") );
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
@@ -89,6 +93,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         String existingModelPath = "block/"+stringName;
         simpleBlockItem(block, models().getExistingFile(modLoc(existingModelPath)));
     }
+
+    private void genPillarRotationSBI(RotatedPillarBlock block, ModelFile model) {
+        axisBlock(block, model, model);
+
+        String stringName = BuiltInRegistries.BLOCK.getKey(block).getPath();
+        String existingModelPath = "block/"+stringName;
+        simpleBlockItem(block, models().getExistingFile(modLoc(existingModelPath)));
+    }
+
 
     private void genSimpleSlabsSBI(Block block, Block parentBlock) {
         //For Rockrete slabs which have a homogenous texture and solid model

@@ -73,5 +73,15 @@
 
   "block.tastytiles.pink_pitter_tile_wall": "Pink Pitter Tile Wall",
 
+  "block.tastytiles.eve_summer_tile": "Eve Summer Tile",
+
+  "block.tastytiles.eve_summer_tile_slab": "Eve Summer Tile Slab",
+
+  "block.tastytiles.eve_summer_tile_stairs": "Eve Summer Tile Stairs",
+
+  "block.tastytiles.eve_summer_tile_wall": "Eve Summer Tile Wall",
+
+  "block.tastytiles.eve_lined_summer_tile": "Eve Lined Summer Tile",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }
