@@ -29,6 +29,63 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModBlocks.BRICK_PITTER_TILE_STAIRS.get());
 
             pOutput.accept(ModBlocks.BRICK_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.FIRE_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.FIRE_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.FIRE_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.FIRE_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.OCHRE_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.OCHRE_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.OCHRE_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.OCHRE_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.EARTHY_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.EARTHY_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.EARTHY_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.EARTHY_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PALE_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.PALE_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PALE_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PALE_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.LUSH_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.LUSH_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.LUSH_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.LUSH_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PITCH_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.PITCH_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PITCH_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PITCH_PITTER_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PINK_PITTER_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_PITTER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_PITTER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_PITTER_TILE_WALL.get());
+
         })
         .build());
 

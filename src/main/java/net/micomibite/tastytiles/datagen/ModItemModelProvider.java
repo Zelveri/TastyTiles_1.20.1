@@ -24,6 +24,22 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         evenSimplerBlockItem(ModBlocks.BRICK_PITTER_TILE_STAIRS);
         wallItem(ModBlocks.BRICK_PITTER_TILE_WALL, ModBlocks.BRICK_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.FIRE_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.FIRE_PITTER_TILE_WALL, ModBlocks.FIRE_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.OCHRE_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.OCHRE_PITTER_TILE_WALL, ModBlocks.OCHRE_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.EARTHY_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.EARTHY_PITTER_TILE_WALL, ModBlocks.EARTHY_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.PALE_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.PALE_PITTER_TILE_WALL, ModBlocks.PALE_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.LUSH_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.LUSH_PITTER_TILE_WALL, ModBlocks.LUSH_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.DEEP_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.DEEP_PITTER_TILE_WALL, ModBlocks.DEEP_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.PITCH_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.PITCH_PITTER_TILE_WALL, ModBlocks.PITCH_PITTER_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_PITTER_TILE_STAIRS);
+        wallItem(ModBlocks.PINK_PITTER_TILE_WALL, ModBlocks.PINK_PITTER_TILE);
 
     }
 

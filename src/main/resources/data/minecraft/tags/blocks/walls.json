@@ -1,5 +1,13 @@
 {
   "values": [
-    "tastytiles:brick_pitter_tile_wall"
+    "tastytiles:brick_pitter_tile_wall",
+    "tastytiles:fire_pitter_tile_wall",
+    "tastytiles:ochre_pitter_tile_wall",
+    "tastytiles:earthy_pitter_tile_wall",
+    "tastytiles:pale_pitter_tile_wall",
+    "tastytiles:lush_pitter_tile_wall",
+    "tastytiles:deep_pitter_tile_wall",
+    "tastytiles:pitch_pitter_tile_wall",
+    "tastytiles:pink_pitter_tile_wall"
   ]
 }

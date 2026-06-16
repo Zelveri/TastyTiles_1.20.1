@@ -25,4 +25,5 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.BRICK_PITTER_TILE_STAIRS.get()
                 );
     }
+    //So the addTags above doesn't actually generate anything for some reason so I'm just adding them in manually for now
 }
