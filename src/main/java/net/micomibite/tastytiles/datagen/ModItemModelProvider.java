@@ -42,6 +42,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.PINK_PITTER_TILE_WALL, ModBlocks.PINK_PITTER_TILE);
         evenSimplerBlockItem(ModBlocks.EVE_SUMMER_TILE_STAIRS);
         wallItem(ModBlocks.EVE_SUMMER_TILE_WALL, ModBlocks.EVE_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.EVE_SPROUT_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.EVE_SPROUT_SUMMER_TILE_WALL, ModBlocks.EVE_SPROUT_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.EVE_BLOOM_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.EVE_BLOOM_SUMMER_TILE_WALL, ModBlocks.EVE_BLOOM_SUMMER_TILE);
 
     }
 

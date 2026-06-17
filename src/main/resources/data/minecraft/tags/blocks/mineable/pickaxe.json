@@ -42,6 +42,16 @@
     "tastytiles:eve_summer_tile_stairs",
     "tastytiles:eve_summer_tile_wall",
 
+    "tastytiles:eve_sprout_summer_tile",
+    "tastytiles:eve_sprout_summer_tile_slab",
+    "tastytiles:eve_sprout_summer_tile_stairs",
+    "tastytiles:eve_sprout_summer_tile_wall",
+
+    "tastytiles:eve_bloom_summer_tile",
+    "tastytiles:eve_bloom_summer_tile_slab",
+    "tastytiles:eve_bloom_summer_tile_stairs",
+    "tastytiles:eve_bloom_summer_tile_wall",
+
     "tastytiles:eve_lined_summer_tile"
   ]
 }

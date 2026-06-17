@@ -4,6 +4,7 @@ import net.micomibite.tastytiles.TastyTiles;
 import net.micomibite.tastytiles.block.ModBlocks;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -57,9 +58,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) ModBlocks.PINK_PITTER_TILE_WALL.get()), blockTexture(ModBlocks.PINK_PITTER_TILE.get()));
 
         genHorizontalSBI(ModBlocks.EVE_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_summer_tile", "solid") );
-        genSimpleSlabsSBI(ModBlocks.EVE_SUMMER_TILE_SLAB.get(), ModBlocks.EVE_SUMMER_TILE.get());
         stairsBlock(((StairBlock) ModBlocks.EVE_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_SUMMER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.EVE_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.EVE_SPROUT_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_sprout_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_SPROUT_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_SPROUT_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_SPROUT_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_SPROUT_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.EVE_BLOOM_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_bloom_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_BLOOM_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_BLOOM_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_BLOOM_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_BLOOM_SUMMER_TILE.get()));
 
         genPillarRotationSBI((RotatedPillarBlock) ModBlocks.EVE_LINED_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_lined_summer_tile", "solid") );
 
@@ -104,7 +112,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
     private void genSimpleSlabsSBI(Block block, Block parentBlock) {
-        //For Rockrete slabs which have a homogenous texture and solid model
+        //For slabs which have a homogenous texture and solid model
         String stringName = BuiltInRegistries.BLOCK.getKey(block).getPath();
 
         slabBlock(((SlabBlock) block), blockTexture(parentBlock), blockTexture(parentBlock));

@@ -161,13 +161,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> PINK_PITTER_TILE_WALL = registerBlock("pink_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
-    //EVE SUMMER TILES
+    //EVE SUMMER TILE
     public static final RegistryObject<Block> EVE_SUMMER_TILE = registerBlock("eve_summer_tile",
             () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
             });
 
     public static final RegistryObject<Block> EVE_SUMMER_TILE_SLAB = registerBlock("eve_summer_tile_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
             });
 
     public static final RegistryObject<Block> EVE_SUMMER_TILE_STAIRS = registerBlock("eve_summer_tile_stairs",
@@ -177,6 +177,39 @@ public class ModBlocks {
     public static final RegistryObject<Block> EVE_SUMMER_TILE_WALL = registerBlock("eve_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
+    //EVE SPROUT SUMMER TILE
+    public static final RegistryObject<Block> EVE_SPROUT_SUMMER_TILE = registerBlock("eve_sprout_summer_tile",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> EVE_SPROUT_SUMMER_TILE_SLAB = registerBlock("eve_sprout_summer_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> EVE_SPROUT_SUMMER_TILE_STAIRS = registerBlock("eve_sprout_summer_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.EVE_SPROUT_SUMMER_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> EVE_SPROUT_SUMMER_TILE_WALL = registerBlock("eve_sprout_summer_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //EVE BLOOM SUMMER TILE
+    public static final RegistryObject<Block> EVE_BLOOM_SUMMER_TILE = registerBlock("eve_bloom_summer_tile",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> EVE_BLOOM_SUMMER_TILE_SLAB = registerBlock("eve_bloom_summer_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> EVE_BLOOM_SUMMER_TILE_STAIRS = registerBlock("eve_bloom_summer_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.EVE_BLOOM_SUMMER_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> EVE_BLOOM_SUMMER_TILE_WALL = registerBlock("eve_bloom_summer_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //EVE LINED SUMMER TILE
     public static final RegistryObject<Block> EVE_LINED_SUMMER_TILE = registerBlock("eve_lined_summer_tile",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_PILLAR).sound(SoundType.DEEPSLATE_TILES)) {
             });
