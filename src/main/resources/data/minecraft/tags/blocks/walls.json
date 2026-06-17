@@ -15,6 +15,13 @@
     "tastytiles:eve_flower_summer_tile_wall",
     "tastytiles:eve_cross_summer_tile_wall",
     "tastytiles:eve_ridge_summer_tile_wall",
-    "tastytiles:eve_lined_summer_tile_wall"
+    "tastytiles:eve_lined_summer_tile_wall",
+    "tastytiles:day_summer_tile_wall",
+    "tastytiles:day_sprout_summer_tile_wall",
+    "tastytiles:day_bloom_summer_tile_wall",
+    "tastytiles:day_flower_summer_tile_wall",
+    "tastytiles:day_cross_summer_tile_wall",
+    "tastytiles:day_ridge_summer_tile_wall",
+    "tastytiles:day_lined_summer_tile_wall"
   ]
 }

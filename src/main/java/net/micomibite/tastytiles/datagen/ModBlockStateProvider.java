@@ -85,6 +85,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.EVE_LINED_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_LINED_SUMMER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.EVE_LINED_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_LINED_SUMMER_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.DAY_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.DAY_SPROUT_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_sprout_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_SPROUT_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_SPROUT_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_SPROUT_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_SPROUT_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.DAY_BLOOM_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_bloom_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_BLOOM_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_BLOOM_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_BLOOM_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_BLOOM_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.DAY_FLOWER_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_flower_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_FLOWER_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_FLOWER_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_FLOWER_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_FLOWER_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.DAY_CROSS_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_cross_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_CROSS_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_CROSS_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_CROSS_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_CROSS_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.DAY_RIDGE_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_ridge_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_RIDGE_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_RIDGE_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_RIDGE_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_RIDGE_SUMMER_TILE.get()));
+
+        genPillarRotationSBI((RotatedPillarBlock) ModBlocks.DAY_LINED_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("day_lined_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.DAY_LINED_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.DAY_LINED_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DAY_LINED_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.DAY_LINED_SUMMER_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

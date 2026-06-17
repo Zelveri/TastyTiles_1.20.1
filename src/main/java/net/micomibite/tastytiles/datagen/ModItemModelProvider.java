@@ -54,6 +54,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.EVE_RIDGE_SUMMER_TILE_WALL, ModBlocks.EVE_RIDGE_SUMMER_TILE);
         evenSimplerBlockItem(ModBlocks.EVE_LINED_SUMMER_TILE_STAIRS);
         wallItem(ModBlocks.EVE_LINED_SUMMER_TILE_WALL, ModBlocks.EVE_LINED_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_SUMMER_TILE_WALL, ModBlocks.DAY_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_SPROUT_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_SPROUT_SUMMER_TILE_WALL, ModBlocks.DAY_SPROUT_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_BLOOM_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_BLOOM_SUMMER_TILE_WALL, ModBlocks.DAY_BLOOM_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_FLOWER_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_FLOWER_SUMMER_TILE_WALL, ModBlocks.DAY_FLOWER_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_CROSS_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_CROSS_SUMMER_TILE_WALL, ModBlocks.DAY_CROSS_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_RIDGE_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_RIDGE_SUMMER_TILE_WALL, ModBlocks.DAY_RIDGE_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.DAY_LINED_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.DAY_LINED_SUMMER_TILE_WALL, ModBlocks.DAY_LINED_SUMMER_TILE);
 
     }
 
