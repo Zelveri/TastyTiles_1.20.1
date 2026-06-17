@@ -48,6 +48,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.EVE_BLOOM_SUMMER_TILE_WALL, ModBlocks.EVE_BLOOM_SUMMER_TILE);
         evenSimplerBlockItem(ModBlocks.EVE_FLOWER_SUMMER_TILE_STAIRS);
         wallItem(ModBlocks.EVE_FLOWER_SUMMER_TILE_WALL, ModBlocks.EVE_FLOWER_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.EVE_CROSS_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.EVE_CROSS_SUMMER_TILE_WALL, ModBlocks.EVE_CROSS_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.EVE_RIDGE_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.EVE_RIDGE_SUMMER_TILE_WALL, ModBlocks.EVE_RIDGE_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.EVE_LINED_SUMMER_TILE_STAIRS);
+        wallItem(ModBlocks.EVE_LINED_SUMMER_TILE_WALL, ModBlocks.EVE_LINED_SUMMER_TILE);
 
     }
 

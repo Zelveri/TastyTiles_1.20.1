@@ -73,7 +73,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.EVE_FLOWER_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_FLOWER_SUMMER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.EVE_FLOWER_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_FLOWER_SUMMER_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.EVE_CROSS_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_cross_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_CROSS_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_CROSS_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_CROSS_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_CROSS_SUMMER_TILE.get()));
+
+        genHorizontalSBI(ModBlocks.EVE_RIDGE_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_ridge_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_RIDGE_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_RIDGE_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_RIDGE_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_RIDGE_SUMMER_TILE.get()));
+
         genPillarRotationSBI((RotatedPillarBlock) ModBlocks.EVE_LINED_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_lined_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_LINED_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_LINED_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_LINED_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_LINED_SUMMER_TILE.get()));
 
     }
 

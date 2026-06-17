@@ -97,7 +97,29 @@
 
   "block.tastytiles.eve_bloom_summer_tile_wall": "Eve Bloom Summer Tile Wall",
 
+  "block.tastytiles.eve_cross_summer_tile": "Eve Cross Summer Tile",
+
+  "block.tastytiles.eve_cross_summer_tile_slab": "Eve Cross Summer Tile Slab",
+
+  "block.tastytiles.eve_cross_summer_tile_stairs": "Eve Cross Summer Tile Stairs",
+
+  "block.tastytiles.eve_cross_summer_tile_wall": "Eve Cross Summer Tile Wall",
+
+  "block.tastytiles.eve_ridge_summer_tile": "Eve Ridge Summer Tile",
+
+  "block.tastytiles.eve_ridge_summer_tile_slab": "Eve Ridge Summer Tile Slab",
+
+  "block.tastytiles.eve_ridge_summer_tile_stairs": "Eve Ridge Summer Tile Stairs",
+
+  "block.tastytiles.eve_ridge_summer_tile_wall": "Eve Ridge Summer Tile Wall",
+
   "block.tastytiles.eve_lined_summer_tile": "Eve Lined Summer Tile",
+
+  "block.tastytiles.eve_lined_summer_tile_slab": "Eve Lined Summer Tile Slab",
+
+  "block.tastytiles.eve_lined_summer_tile_stairs": "Eve Lined Summer Tile Stairs",
+
+  "block.tastytiles.eve_lined_summer_tile_wall": "Eve Lined Summer Tile Wall",
 
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

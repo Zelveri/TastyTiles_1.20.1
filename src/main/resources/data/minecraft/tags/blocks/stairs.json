@@ -1,0 +1,20 @@
+{
+  "values": [
+    "tastytiles:brick_pitter_tile_stairs",
+    "tastytiles:fire_pitter_tile_stairs",
+    "tastytiles:ochre_pitter_tile_stairs",
+    "tastytiles:earthy_pitter_tile_stairs",
+    "tastytiles:pale_pitter_tile_stairs",
+    "tastytiles:lush_pitter_tile_stairs",
+    "tastytiles:deep_pitter_tile_stairs",
+    "tastytiles:pitch_pitter_tile_stairs",
+    "tastytiles:pink_pitter_tile_stairs",
+    "tastytiles:eve_summer_tile_stairs",
+    "tastytiles:eve_sprout_summer_tile_stairs",
+    "tastytiles:eve_bloom_summer_tile_stairs",
+    "tastytiles:eve_flower_summer_tile_stairs",
+    "tastytiles:eve_cross_summer_tile_stairs",
+    "tastytiles:eve_ridge_summer_tile_stairs",
+    "tastytiles:eve_lined_summer_tile_stairs"
+  ]
+}
