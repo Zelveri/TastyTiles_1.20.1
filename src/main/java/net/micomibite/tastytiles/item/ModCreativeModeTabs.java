@@ -118,6 +118,14 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.EVE_BLOOM_SUMMER_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.EVE_FLOWER_SUMMER_TILE.get());
+
+            pOutput.accept(ModBlocks.EVE_FLOWER_SUMMER_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.EVE_FLOWER_SUMMER_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.EVE_FLOWER_SUMMER_TILE_WALL.get());
+
             pOutput.accept(ModBlocks.EVE_LINED_SUMMER_TILE.get());
 
         })

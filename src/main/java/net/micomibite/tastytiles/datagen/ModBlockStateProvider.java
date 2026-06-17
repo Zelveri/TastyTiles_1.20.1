@@ -69,6 +69,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.EVE_BLOOM_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_BLOOM_SUMMER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.EVE_BLOOM_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_BLOOM_SUMMER_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.EVE_FLOWER_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_flower_summer_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.EVE_FLOWER_SUMMER_TILE_STAIRS.get()), blockTexture(ModBlocks.EVE_FLOWER_SUMMER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.EVE_FLOWER_SUMMER_TILE_WALL.get()), blockTexture(ModBlocks.EVE_FLOWER_SUMMER_TILE.get()));
+
         genPillarRotationSBI((RotatedPillarBlock) ModBlocks.EVE_LINED_SUMMER_TILE.get(), buildSimpleBlockWithRenderType("eve_lined_summer_tile", "solid") );
 
     }
