@@ -206,6 +206,22 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.DAY_LINED_SUMMER_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.LIGHT_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.LIGHT_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.LIGHT_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.LIGHT_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.LIGHT_ROSY_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.LIGHT_ROSY_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.LIGHT_ROSY_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.LIGHT_ROSY_PRETTI_TILE_WALL.get());
+
         })
         .build());
 

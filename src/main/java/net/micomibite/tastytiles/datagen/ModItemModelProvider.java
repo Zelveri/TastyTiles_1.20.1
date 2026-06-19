@@ -68,6 +68,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.DAY_RIDGE_SUMMER_TILE_WALL, ModBlocks.DAY_RIDGE_SUMMER_TILE);
         evenSimplerBlockItem(ModBlocks.DAY_LINED_SUMMER_TILE_STAIRS);
         wallItem(ModBlocks.DAY_LINED_SUMMER_TILE_WALL, ModBlocks.DAY_LINED_SUMMER_TILE);
+        evenSimplerBlockItem(ModBlocks.LIGHT_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.LIGHT_PRETTI_TILE_WALL, ModBlocks.LIGHT_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.LIGHT_ROSY_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.LIGHT_ROSY_PRETTI_TILE_WALL, ModBlocks.LIGHT_ROSY_PRETTI_TILE);
 
     }
 
