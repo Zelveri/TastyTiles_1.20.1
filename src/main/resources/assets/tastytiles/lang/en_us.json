@@ -193,5 +193,13 @@
 
   "block.tastytiles.light_posy_pretti_tile_wall": "Light Posy Pretti Tile Wall",
 
+  "block.tastytiles.light_ring_pretti_tile": "Light Ring Pretti Tile",
+
+  "block.tastytiles.light_ring_pretti_tile_slab": "Light Ring Pretti Tile Slab",
+
+  "block.tastytiles.light_ring_pretti_tile_stairs": "Light Ring Pretti Tile Stairs",
+
+  "block.tastytiles.light_ring_pretti_tile_wall": "Light Ring Pretti Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

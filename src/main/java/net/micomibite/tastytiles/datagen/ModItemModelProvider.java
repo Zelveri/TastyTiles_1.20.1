@@ -74,6 +74,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.LIGHT_ROSY_PRETTI_TILE_WALL, ModBlocks.LIGHT_ROSY_PRETTI_TILE);
         evenSimplerBlockItem(ModBlocks.LIGHT_POSY_PRETTI_TILE_STAIRS);
         wallItem(ModBlocks.LIGHT_POSY_PRETTI_TILE_WALL, ModBlocks.LIGHT_POSY_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.LIGHT_RING_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.LIGHT_RING_PRETTI_TILE_WALL, ModBlocks.LIGHT_RING_PRETTI_TILE);
 
     }
 
