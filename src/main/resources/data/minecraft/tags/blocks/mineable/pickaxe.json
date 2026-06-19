@@ -125,6 +125,11 @@
     "tastytiles:light_ring_pretti_tile",
     "tastytiles:light_ring_pretti_tile_slab",
     "tastytiles:light_ring_pretti_tile_stairs",
-    "tastytiles:light_ring_pretti_tile_wall"
+    "tastytiles:light_ring_pretti_tile_wall",
+
+    "tastytiles:light_squared_pretti_tile",
+    "tastytiles:light_squared_pretti_tile_slab",
+    "tastytiles:light_squared_pretti_tile_stairs",
+    "tastytiles:light_squared_pretti_tile_wall"
   ]
 }

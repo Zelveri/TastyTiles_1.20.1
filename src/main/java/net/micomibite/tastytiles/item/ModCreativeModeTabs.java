@@ -238,6 +238,14 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.LIGHT_RING_PRETTI_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.LIGHT_SQUARED_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.LIGHT_SQUARED_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.LIGHT_SQUARED_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.LIGHT_SQUARED_PRETTI_TILE_WALL.get());
+
         })
         .build());
 

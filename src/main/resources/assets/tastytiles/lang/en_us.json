@@ -201,5 +201,13 @@
 
   "block.tastytiles.light_ring_pretti_tile_wall": "Light Ring Pretti Tile Wall",
 
+  "block.tastytiles.light_squared_pretti_tile": "Light Squared Pretti Tile",
+
+  "block.tastytiles.light_squared_pretti_tile_slab": "Light Squared Pretti Tile Slab",
+
+  "block.tastytiles.light_squared_pretti_tile_stairs": "Light Squared Pretti Tile Stairs",
+
+  "block.tastytiles.light_squared_pretti_tile_wall": "Light Squared Pretti Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }
