@@ -133,6 +133,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.LIGHT_SQUARED_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.LIGHT_SQUARED_PRETTI_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.LIGHT_SQUARED_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.LIGHT_SQUARED_PRETTI_TILE.get()));
 
+        blockWithItem(ModBlocks.LIGHT_FULL_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.LIGHT_FULL_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.LIGHT_FULL_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.LIGHT_FULL_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.LIGHT_FULL_PRETTI_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
