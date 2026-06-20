@@ -94,6 +94,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.DARK_FULL_PRETTI_TILE_WALL, ModBlocks.DARK_FULL_PRETTI_TILE);
         evenSimplerBlockItem(ModBlocks.CRISP_ORANGE_TILE_STAIRS);
         wallItem(ModBlocks.CRISP_ORANGE_TILE_WALL, ModBlocks.CRISP_ORANGE_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_ORANGE_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_ORANGE_TILE_WALL, ModBlocks.CRISP_RIPE_ORANGE_TILE);
 
     }
 

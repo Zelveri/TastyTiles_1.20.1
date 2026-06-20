@@ -166,6 +166,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.CRISP_ORANGE_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_ORANGE_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.CRISP_ORANGE_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_ORANGE_TILE.get()));
 
+        blockWithItem(ModBlocks.CRISP_RIPE_ORANGE_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_ORANGE_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_ORANGE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_ORANGE_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_ORANGE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_ORANGE_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_ORANGE_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
