@@ -273,13 +273,29 @@
 
   "block.tastytiles.crisp_orange_tile_wall": "Crisp Orange Tile Wall",
 
-  "block.tastytiles.crisp_ripe_orange_pretti_tile": "Crisp Ripe Orange Tile",
+  "block.tastytiles.crisp_ripe_orange_tile": "Crisp Ripe Orange Tile",
 
-  "block.tastytiles.crisp_ripe_orange_pretti_tile_slab": "Crisp Ripe Orange Tile Slab",
+  "block.tastytiles.crisp_ripe_orange_tile_slab": "Crisp Ripe Orange Tile Slab",
 
-  "block.tastytiles.crisp_ripe_orange_pretti_tile_stairs": "Crisp Ripe Orange Tile Stairs",
+  "block.tastytiles.crisp_ripe_orange_tile_stairs": "Crisp Ripe Orange Tile Stairs",
 
-  "block.tastytiles.crisp_ripe_orange_pretti_tile_wall": "Crisp Ripe Orange Tile Wall",
+  "block.tastytiles.crisp_ripe_orange_tile_wall": "Crisp Ripe Orange Tile Wall",
+
+  "block.tastytiles.crisp_lemon_tile": "Crisp Lemon Tile",
+
+  "block.tastytiles.crisp_lemon_tile_slab": "Crisp Lemon Tile Slab",
+
+  "block.tastytiles.crisp_lemon_tile_stairs": "Crisp Lemon Tile Stairs",
+
+  "block.tastytiles.crisp_lemon_tile_wall": "Crisp Lemon Tile Wall",
+
+  "block.tastytiles.crisp_ripe_lemon_tile": "Crisp Ripe Lemon Tile",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_slab": "Crisp Ripe Lemon Tile Slab",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_stairs": "Crisp Ripe Lemon Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_wall": "Crisp Ripe Lemon Tile Wall",
 
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

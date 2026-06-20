@@ -318,6 +318,22 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.CRISP_RIPE_ORANGE_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.CRISP_LEMON_TILE.get());
+
+            pOutput.accept(ModBlocks.CRISP_LEMON_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.CRISP_LEMON_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.CRISP_LEMON_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.CRISP_RIPE_LEMON_TILE.get());
+
+            pOutput.accept(ModBlocks.CRISP_RIPE_LEMON_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.CRISP_RIPE_LEMON_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.CRISP_RIPE_LEMON_TILE_WALL.get());
+
         })
         .build());
 
