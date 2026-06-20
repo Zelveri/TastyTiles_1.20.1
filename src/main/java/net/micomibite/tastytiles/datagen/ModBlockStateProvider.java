@@ -137,6 +137,30 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.LIGHT_FULL_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.LIGHT_FULL_PRETTI_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.LIGHT_FULL_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.LIGHT_FULL_PRETTI_TILE.get()));
 
+        blockWithItem(ModBlocks.DARK_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_PRETTI_TILE.get()));
+
+        blockWithItem(ModBlocks.DARK_ROSY_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_ROSY_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_ROSY_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_ROSY_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_ROSY_PRETTI_TILE.get()));
+
+        blockWithItem(ModBlocks.DARK_POSY_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_POSY_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_POSY_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_POSY_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_POSY_PRETTI_TILE.get()));
+
+        blockWithItem(ModBlocks.DARK_RING_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_RING_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_RING_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_RING_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_RING_PRETTI_TILE.get()));
+
+        blockWithItem(ModBlocks.DARK_SQUARED_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_SQUARED_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_SQUARED_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_SQUARED_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_SQUARED_PRETTI_TILE.get()));
+
+        blockWithItem(ModBlocks.DARK_FULL_PRETTI_TILE);
+        stairsBlock(((StairBlock) ModBlocks.DARK_FULL_PRETTI_TILE_STAIRS.get()), blockTexture(ModBlocks.DARK_FULL_PRETTI_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.DARK_FULL_PRETTI_TILE_WALL.get()), blockTexture(ModBlocks.DARK_FULL_PRETTI_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

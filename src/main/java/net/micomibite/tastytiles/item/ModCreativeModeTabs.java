@@ -254,6 +254,54 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.LIGHT_FULL_PRETTI_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.DARK_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.DARK_ROSY_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_ROSY_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_ROSY_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_ROSY_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.DARK_POSY_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_POSY_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_POSY_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_POSY_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.DARK_RING_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_RING_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_RING_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_RING_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.DARK_SQUARED_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_SQUARED_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_SQUARED_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_SQUARED_PRETTI_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.DARK_FULL_PRETTI_TILE.get());
+
+            pOutput.accept(ModBlocks.DARK_FULL_PRETTI_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.DARK_FULL_PRETTI_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.DARK_FULL_PRETTI_TILE_WALL.get());
+
         })
         .build());
 

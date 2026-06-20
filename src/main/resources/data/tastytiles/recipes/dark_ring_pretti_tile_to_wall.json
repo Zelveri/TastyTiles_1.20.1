@@ -3,13 +3,14 @@
   "category": "blocks",
 
   "key": {
-    "A": {"item": "tastytiles:light_full_pretti_tile"}
+    "A": {"item": "tastytiles:dark_ring_pretti_tile"}
   },
   "pattern": [
+    "AAA",
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:light_full_pretti_tile_slab",
+    "item": "tastytiles:dark_ring_pretti_tile_wall",
     "count": 6
   }
 }

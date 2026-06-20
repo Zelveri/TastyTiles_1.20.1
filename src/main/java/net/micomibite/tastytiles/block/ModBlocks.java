@@ -475,6 +475,96 @@ public class ModBlocks {
     public static final RegistryObject<Block> LIGHT_FULL_PRETTI_TILE_WALL = registerBlock("light_full_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
+    //DARK PRETTI TILE
+    public static final RegistryObject<Block> DARK_PRETTI_TILE = registerBlock("dark_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_PRETTI_TILE_SLAB = registerBlock("dark_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_PRETTI_TILE_STAIRS = registerBlock("dark_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_PRETTI_TILE_WALL = registerBlock("dark_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //DARK ROSY PRETTI TILE
+    public static final RegistryObject<Block> DARK_ROSY_PRETTI_TILE = registerBlock("dark_rosy_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_ROSY_PRETTI_TILE_SLAB = registerBlock("dark_rosy_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_ROSY_PRETTI_TILE_STAIRS = registerBlock("dark_rosy_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_ROSY_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_ROSY_PRETTI_TILE_WALL = registerBlock("dark_rosy_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //DARK POSY PRETTI TILE
+    public static final RegistryObject<Block> DARK_POSY_PRETTI_TILE = registerBlock("dark_posy_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_POSY_PRETTI_TILE_SLAB = registerBlock("dark_posy_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_POSY_PRETTI_TILE_STAIRS = registerBlock("dark_posy_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_POSY_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_POSY_PRETTI_TILE_WALL = registerBlock("dark_posy_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //DARK RING PRETTI TILE
+    public static final RegistryObject<Block> DARK_RING_PRETTI_TILE = registerBlock("dark_ring_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_RING_PRETTI_TILE_SLAB = registerBlock("dark_ring_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_RING_PRETTI_TILE_STAIRS = registerBlock("dark_ring_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_RING_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_RING_PRETTI_TILE_WALL = registerBlock("dark_ring_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //DARK SQUARED PRETTI TILE
+    public static final RegistryObject<Block> DARK_SQUARED_PRETTI_TILE = registerBlock("dark_squared_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_SQUARED_PRETTI_TILE_SLAB = registerBlock("dark_squared_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_SQUARED_PRETTI_TILE_STAIRS = registerBlock("dark_squared_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_SQUARED_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_SQUARED_PRETTI_TILE_WALL = registerBlock("dark_squared_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //DARK FULL PRETTI TILE
+    public static final RegistryObject<Block> DARK_FULL_PRETTI_TILE = registerBlock("dark_full_pretti_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_FULL_PRETTI_TILE_SLAB = registerBlock("dark_full_pretti_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> DARK_FULL_PRETTI_TILE_STAIRS = registerBlock("dark_full_pretti_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_FULL_PRETTI_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> DARK_FULL_PRETTI_TILE_WALL = registerBlock("dark_full_pretti_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
     //Functions for making this actually work
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -217,5 +217,53 @@
 
   "block.tastytiles.light_full_pretti_tile_wall": "Light Full Pretti Tile Wall",
 
+  "block.tastytiles.dark_pretti_tile": "Dark Pretti Tile",
+
+  "block.tastytiles.dark_pretti_tile_slab": "Dark Pretti Tile Slab",
+
+  "block.tastytiles.dark_pretti_tile_stairs": "Dark Pretti Tile Stairs",
+
+  "block.tastytiles.dark_pretti_tile_wall": "Dark Pretti Tile Wall",
+
+  "block.tastytiles.dark_rosy_pretti_tile": "Dark Rosy Pretti Tile",
+
+  "block.tastytiles.dark_rosy_pretti_tile_slab": "Dark Rosy Pretti Tile Slab",
+
+  "block.tastytiles.dark_rosy_pretti_tile_stairs": "Dark Rosy Pretti Tile Stairs",
+
+  "block.tastytiles.dark_rosy_pretti_tile_wall": "Dark Rosy Pretti Tile Wall",
+
+  "block.tastytiles.dark_posy_pretti_tile": "Dark Posy Pretti Tile",
+
+  "block.tastytiles.dark_posy_pretti_tile_slab": "Dark Posy Pretti Tile Slab",
+
+  "block.tastytiles.dark_posy_pretti_tile_stairs": "Dark Posy Pretti Tile Stairs",
+
+  "block.tastytiles.dark_posy_pretti_tile_wall": "Dark Posy Pretti Tile Wall",
+
+  "block.tastytiles.dark_ring_pretti_tile": "Dark Ring Pretti Tile",
+
+  "block.tastytiles.dark_ring_pretti_tile_slab": "Dark Ring Pretti Tile Slab",
+
+  "block.tastytiles.dark_ring_pretti_tile_stairs": "Dark Ring Pretti Tile Stairs",
+
+  "block.tastytiles.dark_ring_pretti_tile_wall": "Dark Ring Pretti Tile Wall",
+
+  "block.tastytiles.dark_squared_pretti_tile": "Dark Squared Pretti Tile",
+
+  "block.tastytiles.dark_squared_pretti_tile_slab": "Dark Squared Pretti Tile Slab",
+
+  "block.tastytiles.dark_squared_pretti_tile_stairs": "Dark Squared Pretti Tile Stairs",
+
+  "block.tastytiles.dark_squared_pretti_tile_wall": "Dark Squared Pretti Tile Wall",
+
+  "block.tastytiles.dark_full_pretti_tile": "Dark Full Pretti Tile",
+
+  "block.tastytiles.dark_full_pretti_tile_slab": "Dark Full Pretti Tile Slab",
+
+  "block.tastytiles.dark_full_pretti_tile_stairs": "Dark Full Pretti Tile Stairs",
+
+  "block.tastytiles.dark_full_pretti_tile_wall": "Dark Full Pretti Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

@@ -28,6 +28,12 @@
     "tastytiles:light_posy_pretti_tile_stairs",
     "tastytiles:light_ring_pretti_tile_stairs",
     "tastytiles:light_squared_pretti_tile_stairs",
-    "tastytiles:light_full_pretti_tile_stairs"
+    "tastytiles:light_full_pretti_tile_stairs",
+    "tastytiles:dark_pretti_tile_stairs",
+    "tastytiles:dark_posy_pretti_tile_stairs",
+    "tastytiles:dark_rosy_pretti_tile_stairs",
+    "tastytiles:dark_ring_pretti_tile_stairs",
+    "tastytiles:dark_squared_pretti_tile_stairs",
+    "tastytiles:dark_full_pretti_tile_stairs"
   ]
 }

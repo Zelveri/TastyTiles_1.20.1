@@ -80,6 +80,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.LIGHT_SQUARED_PRETTI_TILE_WALL, ModBlocks.LIGHT_SQUARED_PRETTI_TILE);
         evenSimplerBlockItem(ModBlocks.LIGHT_FULL_PRETTI_TILE_STAIRS);
         wallItem(ModBlocks.LIGHT_FULL_PRETTI_TILE_WALL, ModBlocks.LIGHT_FULL_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_PRETTI_TILE_WALL, ModBlocks.DARK_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_ROSY_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_ROSY_PRETTI_TILE_WALL, ModBlocks.DARK_ROSY_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_POSY_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_POSY_PRETTI_TILE_WALL, ModBlocks.DARK_POSY_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_RING_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_RING_PRETTI_TILE_WALL, ModBlocks.DARK_RING_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_SQUARED_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_SQUARED_PRETTI_TILE_WALL, ModBlocks.DARK_SQUARED_PRETTI_TILE);
+        evenSimplerBlockItem(ModBlocks.DARK_FULL_PRETTI_TILE_STAIRS);
+        wallItem(ModBlocks.DARK_FULL_PRETTI_TILE_WALL, ModBlocks.DARK_FULL_PRETTI_TILE);
 
     }
 

@@ -135,6 +135,36 @@
     "tastytiles:light_full_pretti_tile",
     "tastytiles:light_full_pretti_tile_slab",
     "tastytiles:light_full_pretti_tile_stairs",
-    "tastytiles:light_full_pretti_tile_wall"
+    "tastytiles:light_full_pretti_tile_wall",
+
+    "tastytiles:dark_pretti_tile",
+    "tastytiles:dark_pretti_tile_slab",
+    "tastytiles:dark_pretti_tile_stairs",
+    "tastytiles:dark_pretti_tile_wall",
+
+    "tastytiles:dark_rosy_pretti_tile",
+    "tastytiles:dark_rosy_pretti_tile_slab",
+    "tastytiles:dark_rosy_pretti_tile_stairs",
+    "tastytiles:dark_rosy_pretti_tile_wall",
+
+    "tastytiles:dark_posy_pretti_tile",
+    "tastytiles:dark_posy_pretti_tile_slab",
+    "tastytiles:dark_posy_pretti_tile_stairs",
+    "tastytiles:dark_posy_pretti_tile_wall",
+
+    "tastytiles:dark_ring_pretti_tile",
+    "tastytiles:dark_ring_pretti_tile_slab",
+    "tastytiles:dark_ring_pretti_tile_stairs",
+    "tastytiles:dark_ring_pretti_tile_wall",
+
+    "tastytiles:dark_squared_pretti_tile",
+    "tastytiles:dark_squared_pretti_tile_slab",
+    "tastytiles:dark_squared_pretti_tile_stairs",
+    "tastytiles:dark_squared_pretti_tile_wall",
+
+    "tastytiles:dark_full_pretti_tile",
+    "tastytiles:dark_full_pretti_tile_slab",
+    "tastytiles:dark_full_pretti_tile_stairs",
+    "tastytiles:dark_full_pretti_tile_wall"
   ]
 }
