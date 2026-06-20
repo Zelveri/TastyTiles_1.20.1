@@ -565,6 +565,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> DARK_FULL_PRETTI_TILE_WALL = registerBlock("dark_full_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
+    //CRISP ORANGE TILES
+    public static final RegistryObject<Block> CRISP_ORANGE_TILE = registerBlock("crisp_orange_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_ORANGE_TILE_SLAB = registerBlock("crisp_orange_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_ORANGE_TILE_STAIRS = registerBlock("crisp_orange_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_ORANGE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_ORANGE_TILE_WALL = registerBlock("crisp_orange_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
     //Functions for making this actually work
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

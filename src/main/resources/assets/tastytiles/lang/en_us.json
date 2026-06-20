@@ -265,5 +265,13 @@
 
   "block.tastytiles.dark_full_pretti_tile_wall": "Dark Full Pretti Tile Wall",
 
+  "block.tastytiles.crisp_orange_tile": "Crisp Orange Tile",
+
+  "block.tastytiles.crisp_orange_tile_slab": "Crisp Orange Tile Slab",
+
+  "block.tastytiles.crisp_orange_tile_stairs": "Crisp Orange Tile Stairs",
+
+  "block.tastytiles.crisp_orange_tile_wall": "Crisp Orange Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

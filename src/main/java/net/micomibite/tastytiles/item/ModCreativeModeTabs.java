@@ -302,6 +302,14 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.DARK_FULL_PRETTI_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.CRISP_ORANGE_TILE.get());
+
+            pOutput.accept(ModBlocks.CRISP_ORANGE_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.CRISP_ORANGE_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.CRISP_ORANGE_TILE_WALL.get());
+
         })
         .build());
 
