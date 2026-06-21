@@ -625,6 +625,156 @@ public class ModBlocks {
     public static final RegistryObject<Block> CRISP_RIPE_LEMON_TILE_WALL = registerBlock("crisp_ripe_lemon_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
 
+    //CRISP LIME TILES
+    public static final RegistryObject<Block> CRISP_LIME_TILE = registerBlock("crisp_lime_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_LIME_TILE_SLAB = registerBlock("crisp_lime_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_LIME_TILE_STAIRS = registerBlock("crisp_lime_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_LIME_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_LIME_TILE_WALL = registerBlock("crisp_lime_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP RIPE LIME TILES
+    public static final RegistryObject<Block> CRISP_RIPE_LIME_TILE = registerBlock("crisp_ripe_lime_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_LIME_TILE_SLAB = registerBlock("crisp_ripe_lime_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_RIPE_LIME_TILE_STAIRS = registerBlock("crisp_ripe_lime_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_RIPE_LIME_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_LIME_TILE_WALL = registerBlock("crisp_ripe_lime_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP BLUEBERRY TILES
+    public static final RegistryObject<Block> CRISP_BLUEBERRY_TILE = registerBlock("crisp_blueberry_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_BLUEBERRY_TILE_SLAB = registerBlock("crisp_blueberry_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_BLUEBERRY_TILE_STAIRS = registerBlock("crisp_blueberry_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_BLUEBERRY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_BLUEBERRY_TILE_WALL = registerBlock("crisp_blueberry_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP RIPE BLUEBERRY TILES
+    public static final RegistryObject<Block> CRISP_RIPE_BLUEBERRY_TILE = registerBlock("crisp_ripe_blueberry_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_BLUEBERRY_TILE_SLAB = registerBlock("crisp_ripe_blueberry_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_RIPE_BLUEBERRY_TILE_STAIRS = registerBlock("crisp_ripe_blueberry_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_RIPE_BLUEBERRY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_BLUEBERRY_TILE_WALL = registerBlock("crisp_ripe_blueberry_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP GRAPE TILES
+    public static final RegistryObject<Block> CRISP_GRAPE_TILE = registerBlock("crisp_grape_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_GRAPE_TILE_SLAB = registerBlock("crisp_grape_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_GRAPE_TILE_STAIRS = registerBlock("crisp_grape_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_GRAPE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_GRAPE_TILE_WALL = registerBlock("crisp_grape_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP RIPE GRAPE TILES
+    public static final RegistryObject<Block> CRISP_RIPE_GRAPE_TILE = registerBlock("crisp_ripe_grape_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_GRAPE_TILE_SLAB = registerBlock("crisp_ripe_grape_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_RIPE_GRAPE_TILE_STAIRS = registerBlock("crisp_ripe_grape_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_RIPE_GRAPE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_GRAPE_TILE_WALL = registerBlock("crisp_ripe_grape_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP PEACH TILES
+    public static final RegistryObject<Block> CRISP_PEACH_TILE = registerBlock("crisp_peach_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_PEACH_TILE_SLAB = registerBlock("crisp_peach_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_PEACH_TILE_STAIRS = registerBlock("crisp_peach_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_PEACH_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_PEACH_TILE_WALL = registerBlock("crisp_peach_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP RIPE PEACH TILES
+    public static final RegistryObject<Block> CRISP_RIPE_PEACH_TILE = registerBlock("crisp_ripe_peach_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_PEACH_TILE_SLAB = registerBlock("crisp_ripe_peach_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_RIPE_PEACH_TILE_STAIRS = registerBlock("crisp_ripe_peach_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_RIPE_PEACH_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_PEACH_TILE_WALL = registerBlock("crisp_ripe_peach_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP CLEAR TILES
+    public static final RegistryObject<Block> CRISP_CLEAR_TILE = registerBlock("crisp_clear_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_CLEAR_TILE_SLAB = registerBlock("crisp_clear_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_CLEAR_TILE_STAIRS = registerBlock("crisp_clear_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_CLEAR_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_CLEAR_TILE_WALL = registerBlock("crisp_clear_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
+    //CRISP RIPE CLEAR TILES
+    public static final RegistryObject<Block> CRISP_RIPE_CLEAR_TILE = registerBlock("crisp_ripe_clear_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_CLEAR_TILE_SLAB = registerBlock("crisp_ripe_clear_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.METAL)) {
+            });
+
+    public static final RegistryObject<Block> CRISP_RIPE_CLEAR_TILE_STAIRS = registerBlock("crisp_ripe_clear_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.CRISP_RIPE_CLEAR_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> CRISP_RIPE_CLEAR_TILE_WALL = registerBlock("crisp_ripe_clear_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
+
     //Functions for making this actually work
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

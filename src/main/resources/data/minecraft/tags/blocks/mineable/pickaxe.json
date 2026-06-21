@@ -167,24 +167,74 @@
     "tastytiles:dark_full_pretti_tile_stairs",
     "tastytiles:dark_full_pretti_tile_wall",
 
-    "tastytiles:crisp_orange_pretti_tile",
-    "tastytiles:crisp_orange_pretti_tile_slab",
-    "tastytiles:crisp_orange_pretti_tile_stairs",
-    "tastytiles:crisp_orange_pretti_tile_wall",
+    "tastytiles:crisp_orange_tile",
+    "tastytiles:crisp_orange_tile_slab",
+    "tastytiles:crisp_orange_tile_stairs",
+    "tastytiles:crisp_orange_tile_wall",
 
-    "tastytiles:crisp_ripe_orange_pretti_tile",
-    "tastytiles:crisp_ripe_orange_pretti_tile_slab",
-    "tastytiles:crisp_ripe_orange_pretti_tile_stairs",
-    "tastytiles:crisp_ripe_orange_pretti_tile_wall",
+    "tastytiles:crisp_ripe_orange_tile",
+    "tastytiles:crisp_ripe_orange_tile_slab",
+    "tastytiles:crisp_ripe_orange_tile_stairs",
+    "tastytiles:crisp_ripe_orange_tile_wall",
 
-    "tastytiles:crisp_lemon_pretti_tile",
-    "tastytiles:crisp_lemon_pretti_tile_slab",
-    "tastytiles:crisp_lemon_pretti_tile_stairs",
-    "tastytiles:crisp_lemon_pretti_tile_wall",
+    "tastytiles:crisp_lemon_tile",
+    "tastytiles:crisp_lemon_tile_slab",
+    "tastytiles:crisp_lemon_tile_stairs",
+    "tastytiles:crisp_lemon_tile_wall",
 
-    "tastytiles:crisp_ripe_lemon_pretti_tile",
-    "tastytiles:crisp_ripe_lemon_pretti_tile_slab",
-    "tastytiles:crisp_ripe_lemon_pretti_tile_stairs",
-    "tastytiles:crisp_ripe_lemon_pretti_tile_wall"
+    "tastytiles:crisp_ripe_lemon_tile",
+    "tastytiles:crisp_ripe_lemon_tile_slab",
+    "tastytiles:crisp_ripe_lemon_tile_stairs",
+    "tastytiles:crisp_ripe_lemon_tile_wall",
+
+    "tastytiles:crisp_lime_tile",
+    "tastytiles:crisp_lime_tile_slab",
+    "tastytiles:crisp_lime_tile_stairs",
+    "tastytiles:crisp_lime_tile_wall",
+
+    "tastytiles:crisp_ripe_lime_tile",
+    "tastytiles:crisp_ripe_lime_tile_slab",
+    "tastytiles:crisp_ripe_lime_tile_stairs",
+    "tastytiles:crisp_ripe_lime_tile_wall",
+
+    "tastytiles:crisp_blueberry_tile",
+    "tastytiles:crisp_blueberry_tile_slab",
+    "tastytiles:crisp_blueberry_tile_stairs",
+    "tastytiles:crisp_blueberry_tile_wall",
+
+    "tastytiles:crisp_ripe_blueberry_tile",
+    "tastytiles:crisp_ripe_blueberry_tile_slab",
+    "tastytiles:crisp_ripe_blueberry_tile_stairs",
+    "tastytiles:crisp_ripe_blueberry_tile_wall",
+
+    "tastytiles:crisp_grape_tile",
+    "tastytiles:crisp_grape_tile_slab",
+    "tastytiles:crisp_grape_tile_stairs",
+    "tastytiles:crisp_grape_tile_wall",
+
+    "tastytiles:crisp_ripe_grape_tile",
+    "tastytiles:crisp_ripe_grape_tile_slab",
+    "tastytiles:crisp_ripe_grape_tile_stairs",
+    "tastytiles:crisp_ripe_grape_tile_wall",
+
+    "tastytiles:crisp_peach_tile",
+    "tastytiles:crisp_peach_tile_slab",
+    "tastytiles:crisp_peach_tile_stairs",
+    "tastytiles:crisp_peach_tile_wall",
+
+    "tastytiles:crisp_ripe_peach_tile",
+    "tastytiles:crisp_ripe_peach_tile_slab",
+    "tastytiles:crisp_ripe_peach_tile_stairs",
+    "tastytiles:crisp_ripe_peach_tile_wall",
+
+    "tastytiles:crisp_clear_tile",
+    "tastytiles:crisp_clear_tile_slab",
+    "tastytiles:crisp_clear_tile_stairs",
+    "tastytiles:crisp_clear_tile_wall",
+
+    "tastytiles:crisp_ripe_clear_tile",
+    "tastytiles:crisp_ripe_clear_tile_slab",
+    "tastytiles:crisp_ripe_clear_tile_stairs",
+    "tastytiles:crisp_ripe_clear_tile_wall"
   ]
 }

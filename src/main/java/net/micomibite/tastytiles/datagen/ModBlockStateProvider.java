@@ -181,6 +181,56 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_LEMON_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_LEMON_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_LEMON_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_LEMON_TILE.get()));
 
+        blockWithItem(ModBlocks.CRISP_LIME_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_LIME_TILE_SLAB.get(), ModBlocks.CRISP_LIME_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_LIME_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_LIME_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_LIME_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_LIME_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_RIPE_LIME_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_LIME_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_LIME_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_LIME_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_LIME_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_LIME_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_LIME_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_BLUEBERRY_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_BLUEBERRY_TILE_SLAB.get(), ModBlocks.CRISP_BLUEBERRY_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_BLUEBERRY_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_BLUEBERRY_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_BLUEBERRY_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_BLUEBERRY_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_BLUEBERRY_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_BLUEBERRY_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_BLUEBERRY_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_GRAPE_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_GRAPE_TILE_SLAB.get(), ModBlocks.CRISP_GRAPE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_GRAPE_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_GRAPE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_GRAPE_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_GRAPE_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_RIPE_GRAPE_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_GRAPE_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_GRAPE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_GRAPE_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_GRAPE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_GRAPE_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_GRAPE_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_PEACH_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_PEACH_TILE_SLAB.get(), ModBlocks.CRISP_PEACH_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_PEACH_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_PEACH_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_PEACH_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_PEACH_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_RIPE_PEACH_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_PEACH_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_PEACH_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_PEACH_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_PEACH_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_PEACH_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_PEACH_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_CLEAR_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_CLEAR_TILE_SLAB.get(), ModBlocks.CRISP_CLEAR_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_CLEAR_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_CLEAR_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_CLEAR_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_CLEAR_TILE.get()));
+
+        blockWithItem(ModBlocks.CRISP_RIPE_CLEAR_TILE);
+        genSimpleSlabsSBI(ModBlocks.CRISP_RIPE_CLEAR_TILE_SLAB.get(), ModBlocks.CRISP_RIPE_CLEAR_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.CRISP_RIPE_CLEAR_TILE_STAIRS.get()), blockTexture(ModBlocks.CRISP_RIPE_CLEAR_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.CRISP_RIPE_CLEAR_TILE_WALL.get()), blockTexture(ModBlocks.CRISP_RIPE_CLEAR_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

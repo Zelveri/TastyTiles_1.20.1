@@ -100,6 +100,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.CRISP_LEMON_TILE_WALL, ModBlocks.CRISP_LEMON_TILE);
         evenSimplerBlockItem(ModBlocks.CRISP_RIPE_LEMON_TILE_STAIRS);
         wallItem(ModBlocks.CRISP_RIPE_LEMON_TILE_WALL, ModBlocks.CRISP_RIPE_LEMON_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_LIME_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_LIME_TILE_WALL, ModBlocks.CRISP_LIME_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_LIME_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_LIME_TILE_WALL, ModBlocks.CRISP_RIPE_LIME_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_BLUEBERRY_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_BLUEBERRY_TILE_WALL, ModBlocks.CRISP_BLUEBERRY_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE_WALL, ModBlocks.CRISP_RIPE_BLUEBERRY_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_GRAPE_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_GRAPE_TILE_WALL, ModBlocks.CRISP_GRAPE_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_GRAPE_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_GRAPE_TILE_WALL, ModBlocks.CRISP_RIPE_GRAPE_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_PEACH_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_PEACH_TILE_WALL, ModBlocks.CRISP_PEACH_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_PEACH_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_PEACH_TILE_WALL, ModBlocks.CRISP_RIPE_PEACH_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_CLEAR_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_CLEAR_TILE_WALL, ModBlocks.CRISP_CLEAR_TILE);
+        evenSimplerBlockItem(ModBlocks.CRISP_RIPE_CLEAR_TILE_STAIRS);
+        wallItem(ModBlocks.CRISP_RIPE_CLEAR_TILE_WALL, ModBlocks.CRISP_RIPE_CLEAR_TILE);
 
     }
 

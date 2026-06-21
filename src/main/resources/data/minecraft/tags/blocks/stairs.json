@@ -38,6 +38,16 @@
     "tastytiles:crisp_orange_tile_stairs",
     "tastytiles:crisp_ripe_orange_tile_stairs",
     "tastytiles:crisp_lemon_tile_stairs",
-    "tastytiles:crisp_ripe_lemon_tile_stairs"
+    "tastytiles:crisp_ripe_lemon_tile_stairs",
+    "tastytiles:crisp_lime_tile_stairs",
+    "tastytiles:crisp_ripe_lime_tile_stairs",
+    "tastytiles:crisp_blueberry_tile_stair",
+    "tastytiles:crisp_ripe_blueberry_tile_stair",
+    "tastytiles:crisp_grape_tile_stair",
+    "tastytiles:crisp_ripe_grape_tile_stair",
+    "tastytiles:crisp_peach_tile_stair",
+    "tastytiles:crisp_ripe_peach_tile_stair",
+    "tastytiles:crisp_clear_tile_stair",
+    "tastytiles:crisp_ripe_clear_tile_stair"
   ]
 }
