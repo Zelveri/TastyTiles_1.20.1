@@ -430,6 +430,38 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.GRID_PURPLE_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.GRID_TEAL_TILE.get());
+
+            pOutput.accept(ModBlocks.GRID_TEAL_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.GRID_TEAL_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.GRID_TEAL_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.GRID_POOL_TILE.get());
+
+            pOutput.accept(ModBlocks.GRID_POOL_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.GRID_POOL_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.GRID_POOL_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.GRID_SAGE_TILE.get());
+
+            pOutput.accept(ModBlocks.GRID_SAGE_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.GRID_SAGE_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.GRID_SAGE_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.GRID_MIXED_TILE.get());
+
+            pOutput.accept(ModBlocks.GRID_MIXED_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.GRID_MIXED_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.GRID_MIXED_TILE_WALL.get());
+
         })
         .build());
 

@@ -393,5 +393,37 @@
 
   "block.tastytiles.grid_purple_tile_wall": "Grid Purple Tile Wall",
 
+  "block.tastytiles.grid_teal_tile": "Grid Teal Tile",
+
+  "block.tastytiles.grid_teal_tile_slab": "Grid Teal Tile Slab",
+
+  "block.tastytiles.grid_teal_tile_stairs": "Grid Teal Tile Stairs",
+
+  "block.tastytiles.grid_teal_tile_wall": "Grid Teal Tile Wall",
+
+  "block.tastytiles.grid_pool_tile": "Grid Pool Tile",
+
+  "block.tastytiles.grid_pool_tile_slab": "Grid Pool Tile Slab",
+
+  "block.tastytiles.grid_pool_tile_stairs": "Grid Pool Tile Stairs",
+
+  "block.tastytiles.grid_pool_tile_wall": "Grid Pool Tile Wall",
+
+  "block.tastytiles.grid_sage_tile": "Grid Sage Tile",
+
+  "block.tastytiles.grid_sage_tile_slab": "Grid Sage Tile Slab",
+
+  "block.tastytiles.grid_sage_tile_stairs": "Grid Sage Tile Stairs",
+
+  "block.tastytiles.grid_sage_tile_wall": "Grid Sage Tile Wall",
+
+  "block.tastytiles.grid_mixed_tile": "Grid Mixed Tile",
+
+  "block.tastytiles.grid_mixed_tile_slab": "Grid Mixed Tile Slab",
+
+  "block.tastytiles.grid_mixed_tile_stairs": "Grid Mixed Tile Stairs",
+
+  "block.tastytiles.grid_mixed_tile_wall": "Grid Mixed Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

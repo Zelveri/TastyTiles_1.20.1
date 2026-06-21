@@ -241,6 +241,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.GRID_PURPLE_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_PURPLE_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.GRID_PURPLE_TILE_WALL.get()), blockTexture(ModBlocks.GRID_PURPLE_TILE.get()));
 
+        blockWithItem(ModBlocks.GRID_TEAL_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_TEAL_TILE_SLAB.get(), ModBlocks.GRID_TEAL_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_TEAL_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_TEAL_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_TEAL_TILE_WALL.get()), blockTexture(ModBlocks.GRID_TEAL_TILE.get()));
+
+        blockWithItem(ModBlocks.GRID_POOL_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_POOL_TILE_SLAB.get(), ModBlocks.GRID_POOL_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_POOL_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_POOL_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_POOL_TILE_WALL.get()), blockTexture(ModBlocks.GRID_POOL_TILE.get()));
+
+        blockWithItem(ModBlocks.GRID_SAGE_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_SAGE_TILE_SLAB.get(), ModBlocks.GRID_SAGE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_SAGE_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_SAGE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_SAGE_TILE_WALL.get()), blockTexture(ModBlocks.GRID_SAGE_TILE.get()));
+
+        blockWithItem(ModBlocks.GRID_MIXED_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_MIXED_TILE_SLAB.get(), ModBlocks.GRID_MIXED_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_MIXED_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_MIXED_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_MIXED_TILE_WALL.get()), blockTexture(ModBlocks.GRID_MIXED_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

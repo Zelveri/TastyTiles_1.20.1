@@ -50,6 +50,10 @@
     "tastytiles:crisp_clear_tile_stair",
     "tastytiles:crisp_ripe_clear_tile_stair",
     "tastytiles:grid_red_tile_stair",
-    "tastytiles:grid_purple_tile_stair"
+    "tastytiles:grid_purple_tile_stair",
+    "tastytiles:grid_teal_tile_stair",
+    "tastytiles:grid_pool_tile_stair",
+    "tastytiles:grid_sage_tile_stair",
+    "tastytiles:grid_mixed_tile_stair"
   ]
 }

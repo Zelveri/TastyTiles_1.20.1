@@ -245,6 +245,26 @@
     "tastytiles:grid_purple_tile",
     "tastytiles:grid_purple_tile_slab",
     "tastytiles:grid_purple_tile_stairs",
-    "tastytiles:grid_purple_tile_wall"
+    "tastytiles:grid_purple_tile_wall",
+
+    "tastytiles:grid_teal_tile",
+    "tastytiles:grid_teal_tile_slab",
+    "tastytiles:grid_teal_tile_stairs",
+    "tastytiles:grid_teal_tile_wall",
+
+    "tastytiles:grid_pool_tile",
+    "tastytiles:grid_pool_tile_slab",
+    "tastytiles:grid_pool_tile_stairs",
+    "tastytiles:grid_pool_tile_wall",
+
+    "tastytiles:grid_sage_tile",
+    "tastytiles:grid_sage_tile_slab",
+    "tastytiles:grid_sage_tile_stairs",
+    "tastytiles:grid_sage_tile_wall",
+
+    "tastytiles:grid_mixed_tile",
+    "tastytiles:grid_mixed_tile_slab",
+    "tastytiles:grid_mixed_tile_stairs",
+    "tastytiles:grid_mixed_tile_wall"
   ]
 }
