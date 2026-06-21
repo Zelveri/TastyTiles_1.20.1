@@ -377,5 +377,13 @@
 
   "block.tastytiles.crisp_ripe_clear_tile_wall": "Crisp Ripe Clear Tile Wall",
 
+  "block.tastytiles.grid_red_tile": "Grid Red Tile",
+
+  "block.tastytiles.grid_red_tile_slab": "Grid Red Tile Slab",
+
+  "block.tastytiles.grid_red_tile_stairs": "Grid Red Tile Stairs",
+
+  "block.tastytiles.grid_red_tile_wall": "Grid Red Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

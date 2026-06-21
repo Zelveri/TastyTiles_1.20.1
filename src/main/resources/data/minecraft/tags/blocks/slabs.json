@@ -48,6 +48,7 @@
     "tastytiles:crisp_peach_tile_slab",
     "tastytiles:crisp_ripe_peach_tile_slab",
     "tastytiles:crisp_clear_tile_slab",
-    "tastytiles:crisp_ripe_clear_tile_slab"
+    "tastytiles:crisp_ripe_clear_tile_slab",
+    "tastytiles:grid_red_tile_slab"
   ]
 }
