@@ -240,6 +240,11 @@
     "tastytiles:grid_red_tile",
     "tastytiles:grid_red_tile_slab",
     "tastytiles:grid_red_tile_stairs",
-    "tastytiles:grid_red_tile_wall"
+    "tastytiles:grid_red_tile_wall",
+
+    "tastytiles:grid_purple_tile",
+    "tastytiles:grid_purple_tile_slab",
+    "tastytiles:grid_purple_tile_stairs",
+    "tastytiles:grid_purple_tile_wall"
   ]
 }

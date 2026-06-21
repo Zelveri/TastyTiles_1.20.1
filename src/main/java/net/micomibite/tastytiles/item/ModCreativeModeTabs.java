@@ -422,6 +422,14 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.GRID_RED_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.GRID_PURPLE_TILE.get());
+
+            pOutput.accept(ModBlocks.GRID_PURPLE_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.GRID_PURPLE_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.GRID_PURPLE_TILE_WALL.get());
+
         })
         .build());
 

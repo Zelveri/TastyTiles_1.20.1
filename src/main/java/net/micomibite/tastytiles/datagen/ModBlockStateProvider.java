@@ -236,6 +236,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.GRID_RED_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_RED_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.GRID_RED_TILE_WALL.get()), blockTexture(ModBlocks.GRID_RED_TILE.get()));
 
+        blockWithItem(ModBlocks.GRID_PURPLE_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_PURPLE_TILE_SLAB.get(), ModBlocks.GRID_PURPLE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_PURPLE_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_PURPLE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_PURPLE_TILE_WALL.get()), blockTexture(ModBlocks.GRID_PURPLE_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

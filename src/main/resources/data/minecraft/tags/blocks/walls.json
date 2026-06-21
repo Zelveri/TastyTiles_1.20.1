@@ -49,6 +49,7 @@
     "tastytiles:crisp_ripe_peach_tile_wall",
     "tastytiles:crisp_clear_tile_wall",
     "tastytiles:crisp_ripe_clear_tile_wall",
-    "tastytiles:grid_red_tile_wall"
+    "tastytiles:grid_red_tile_wall",
+    "tastytiles:grid_purple_tile_wall"
   ]
 }
