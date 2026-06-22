@@ -265,6 +265,21 @@
     "tastytiles:grid_mixed_tile",
     "tastytiles:grid_mixed_tile_slab",
     "tastytiles:grid_mixed_tile_stairs",
-    "tastytiles:grid_mixed_tile_wall"
+    "tastytiles:grid_mixed_tile_wall",
+
+    "tastytiles:grid_white_tile",
+    "tastytiles:grid_white_tile_slab",
+    "tastytiles:grid_white_tile_stairs",
+    "tastytiles:grid_white_tile_wall",
+
+    "tastytiles:grid_black_tile",
+    "tastytiles:grid_black_tile_slab",
+    "tastytiles:grid_black_tile_stairs",
+    "tastytiles:grid_black_tile_wall",
+
+    "tastytiles:grid_sewer_tile",
+    "tastytiles:grid_sewer_tile_slab",
+    "tastytiles:grid_sewer_tile_stairs",
+    "tastytiles:grid_sewer_tile_wall"
   ]
 }

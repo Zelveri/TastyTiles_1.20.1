@@ -261,6 +261,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.GRID_MIXED_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_MIXED_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.GRID_MIXED_TILE_WALL.get()), blockTexture(ModBlocks.GRID_MIXED_TILE.get()));
 
+        blockWithItem(ModBlocks.GRID_WHITE_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_WHITE_TILE_SLAB.get(), ModBlocks.GRID_WHITE_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_WHITE_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_WHITE_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_WHITE_TILE_WALL.get()), blockTexture(ModBlocks.GRID_WHITE_TILE.get()));
+
+        blockWithItem(ModBlocks.GRID_BLACK_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_BLACK_TILE_SLAB.get(), ModBlocks.GRID_BLACK_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_BLACK_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_BLACK_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_BLACK_TILE_WALL.get()), blockTexture(ModBlocks.GRID_BLACK_TILE.get()));
+
+        blockWithItem(ModBlocks.GRID_SEWER_TILE);
+        genSimpleSlabsSBI(ModBlocks.GRID_SEWER_TILE_SLAB.get(), ModBlocks.GRID_SEWER_TILE.get());
+        stairsBlock(((StairBlock) ModBlocks.GRID_SEWER_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_SEWER_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.GRID_SEWER_TILE_WALL.get()), blockTexture(ModBlocks.GRID_SEWER_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

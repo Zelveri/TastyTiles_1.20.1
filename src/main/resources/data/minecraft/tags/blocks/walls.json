@@ -54,6 +54,9 @@
     "tastytiles:grid_teal_tile_wall",
     "tastytiles:grid_pool_tile_wall",
     "tastytiles:grid_sage_tile_wall",
-    "tastytiles:grid_mixed_tile_wall"
+    "tastytiles:grid_mixed_tile_wall",
+    "tastytiles:grid_white_tile_wall",
+    "tastytiles:grid_black_tile_wall",
+    "tastytiles:grid_sewer_tile_wall"
   ]
 }

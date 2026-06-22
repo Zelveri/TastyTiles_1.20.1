@@ -425,5 +425,29 @@
 
   "block.tastytiles.grid_mixed_tile_wall": "Grid Mixed Tile Wall",
 
+  "block.tastytiles.grid_white_tile": "Grid White Tile",
+
+  "block.tastytiles.grid_white_tile_slab": "Grid White Tile Slab",
+
+  "block.tastytiles.grid_white_tile_stairs": "Grid White Tile Stairs",
+
+  "block.tastytiles.grid_white_tile_wall": "Grid White Tile Wall",
+
+  "block.tastytiles.grid_black_tile": "Grid Black Tile",
+
+  "block.tastytiles.grid_black_tile_slab": "Grid Black Tile Slab",
+
+  "block.tastytiles.grid_black_tile_stairs": "Grid Black Tile Stairs",
+
+  "block.tastytiles.grid_black_tile_wall": "Grid Black Tile Wall",
+
+  "block.tastytiles.grid_sewer_tile": "Grid Sewer Tile",
+
+  "block.tastytiles.grid_sewer_tile_slab": "Grid Sewer Tile Slab",
+
+  "block.tastytiles.grid_sewer_tile_stairs": "Grid Sewer Tile Stairs",
+
+  "block.tastytiles.grid_sewer_tile_wall": "Grid Sewer Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

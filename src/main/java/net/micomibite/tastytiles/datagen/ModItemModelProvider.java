@@ -132,6 +132,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.GRID_SAGE_TILE_WALL, ModBlocks.GRID_SAGE_TILE);
         evenSimplerBlockItem(ModBlocks.GRID_MIXED_TILE_STAIRS);
         wallItem(ModBlocks.GRID_MIXED_TILE_WALL, ModBlocks.GRID_MIXED_TILE);
+        evenSimplerBlockItem(ModBlocks.GRID_WHITE_TILE_STAIRS);
+        wallItem(ModBlocks.GRID_WHITE_TILE_WALL, ModBlocks.GRID_WHITE_TILE);
+        evenSimplerBlockItem(ModBlocks.GRID_BLACK_TILE_STAIRS);
+        wallItem(ModBlocks.GRID_BLACK_TILE_WALL, ModBlocks.GRID_BLACK_TILE);
+        evenSimplerBlockItem(ModBlocks.GRID_SEWER_TILE_STAIRS);
+        wallItem(ModBlocks.GRID_SEWER_TILE_WALL, ModBlocks.GRID_SEWER_TILE);
 
     }
 
