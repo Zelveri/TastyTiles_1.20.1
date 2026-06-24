@@ -280,6 +280,16 @@
     "tastytiles:grid_sewer_tile",
     "tastytiles:grid_sewer_tile_slab",
     "tastytiles:grid_sewer_tile_stairs",
-    "tastytiles:grid_sewer_tile_wall"
+    "tastytiles:grid_sewer_tile_wall",
+
+    "tastytiles:pink_spring_tile",
+    "tastytiles:pink_spring_tile_slab",
+    "tastytiles:pink_spring_tile_stairs",
+    "tastytiles:pink_spring_tile_wall",
+
+    "tastytiles:pink_vine_spring_tile",
+    "tastytiles:pink_vine_spring_tile_slab",
+    "tastytiles:pink_vine_spring_tile_stairs",
+    "tastytiles:pink_vine_spring_tile_wall"
   ]
 }

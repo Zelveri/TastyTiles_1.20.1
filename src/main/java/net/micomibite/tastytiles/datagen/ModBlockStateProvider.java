@@ -276,6 +276,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.GRID_SEWER_TILE_STAIRS.get()), blockTexture(ModBlocks.GRID_SEWER_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.GRID_SEWER_TILE_WALL.get()), blockTexture(ModBlocks.GRID_SEWER_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.PINK_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.PINK_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_SPRING_TILE.get()));
+
+        genPillarRotationSBI((RotatedPillarBlock) ModBlocks.PINK_VINE_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_vine_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.PINK_VINE_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_VINE_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -449,5 +449,21 @@
 
   "block.tastytiles.grid_sewer_tile_wall": "Grid Sewer Tile Wall",
 
+  "block.tastytiles.pink_spring_tile": "Pink Spring Tile",
+
+  "block.tastytiles.pink_spring_tile_slab": "Pink Spring Tile Slab",
+
+  "block.tastytiles.pink_spring_tile_stairs": "Pink Spring Tile Stairs",
+
+  "block.tastytiles.pink_spring_tile_wall": "Pink Spring Tile Wall",
+
+  "block.tastytiles.pink_vine_spring_tile": "Pink Vine Spring Tile",
+
+  "block.tastytiles.pink_vine_spring_tile_slab": "Pink Vine Spring Tile Slab",
+
+  "block.tastytiles.pink_vine_spring_tile_stairs": "Pink Vine Spring Tile Stairs",
+
+  "block.tastytiles.pink_vine_spring_tile_wall": "Pink Vine Spring Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

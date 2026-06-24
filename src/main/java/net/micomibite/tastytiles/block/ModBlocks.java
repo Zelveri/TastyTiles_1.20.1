@@ -910,6 +910,38 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRID_SEWER_TILE_WALL = registerBlock("grid_sewer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.METAL)));
 
+    //PINK SPRING TILES
+    public static final RegistryObject<Block> PINK_SPRING_TILE = registerBlock("pink_spring_tile",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_SPRING_TILE_SLAB = registerBlock("pink_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_SPRING_TILE_STAIRS = registerBlock("pink_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.PINK_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> PINK_SPRING_TILE_WALL = registerBlock("pink_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //PINK VINE SPRING TILES
+    public static final RegistryObject<Block> PINK_VINE_SPRING_TILE = registerBlock("pink_vine_spring_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_PILLAR).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_VINE_SPRING_TILE_SLAB = registerBlock("pink_vine_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_VINE_SPRING_TILE_STAIRS = registerBlock("pink_vine_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.PINK_VINE_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> PINK_VINE_SPRING_TILE_WALL = registerBlock("pink_vine_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
     //Functions for making this actually work
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

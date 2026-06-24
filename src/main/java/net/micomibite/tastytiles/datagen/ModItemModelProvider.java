@@ -138,6 +138,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.GRID_BLACK_TILE_WALL, ModBlocks.GRID_BLACK_TILE);
         evenSimplerBlockItem(ModBlocks.GRID_SEWER_TILE_STAIRS);
         wallItem(ModBlocks.GRID_SEWER_TILE_WALL, ModBlocks.GRID_SEWER_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.PINK_SPRING_TILE_WALL, ModBlocks.PINK_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_VINE_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.PINK_VINE_SPRING_TILE_WALL, ModBlocks.PINK_VINE_SPRING_TILE);
 
     }
 

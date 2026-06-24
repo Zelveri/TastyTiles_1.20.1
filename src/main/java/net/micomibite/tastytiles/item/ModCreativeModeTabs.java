@@ -486,6 +486,22 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.GRID_SEWER_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.PINK_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PINK_VINE_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_VINE_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_VINE_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_VINE_SPRING_TILE_WALL.get());
+
         })
         .build());
 
