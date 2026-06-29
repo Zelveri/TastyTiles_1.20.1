@@ -465,5 +465,13 @@
 
   "block.tastytiles.pink_vine_spring_tile_wall": "Pink Vine Spring Tile Wall",
 
+  "block.tastytiles.pink_bloom_spring_tile": "Pink Bloom Spring Tile",
+
+  "block.tastytiles.pink_bloom_spring_tile_slab": "Pink Bloom Spring Tile Slab",
+
+  "block.tastytiles.pink_bloom_spring_tile_stairs": "Pink Bloom Spring Tile Stairs",
+
+  "block.tastytiles.pink_bloom_spring_tile_wall": "Pink Bloom Spring Tile Wall",
+
   "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
 }

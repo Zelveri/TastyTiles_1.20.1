@@ -1,6 +1,7 @@
 package net.micomibite.tastytiles.block;
 
 import net.micomibite.tastytiles.TastyTiles;
+import net.micomibite.tastytiles.datagen.ModBlockStateProvider;
 import net.micomibite.tastytiles.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -940,6 +941,22 @@ public class ModBlocks {
                     BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
 
     public static final RegistryObject<Block> PINK_VINE_SPRING_TILE_WALL = registerBlock("pink_vine_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //PINK BLOOM SPRING TILES
+    public static final RegistryObject<ModBlockStateProvider.SixDirectionBlock> PINK_BLOOM_SPRING_TILE = registerBlock("pink_bloom_spring_tile",
+            () -> new ModBlockStateProvider.SixDirectionBlock(BlockBehaviour.Properties.copy(Blocks.PINK_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_BLOOM_SPRING_TILE_SLAB = registerBlock("pink_bloom_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> PINK_BLOOM_SPRING_TILE_STAIRS = registerBlock("pink_bloom_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.PINK_BLOOM_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> PINK_BLOOM_SPRING_TILE_WALL = registerBlock("pink_bloom_spring_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
     //Functions for making this actually work

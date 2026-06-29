@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.GlazedTerracottaBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -142,6 +143,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.PINK_SPRING_TILE_WALL, ModBlocks.PINK_SPRING_TILE);
         evenSimplerBlockItem(ModBlocks.PINK_VINE_SPRING_TILE_STAIRS);
         wallItem(ModBlocks.PINK_VINE_SPRING_TILE_WALL, ModBlocks.PINK_VINE_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.PINK_BLOOM_SPRING_TILE_WALL, ModBlocks.PINK_BLOOM_SPRING_TILE);
 
     }
 
@@ -157,6 +160,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  new ResourceLocation(TastyTiles.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void wallSixItem(RegistryObject<Block> block, RegistryObject<ModBlockStateProvider.SixDirectionBlock> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
                 .texture("wall",  new ResourceLocation(TastyTiles.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }

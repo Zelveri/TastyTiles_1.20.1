@@ -1,15 +1,28 @@
 package net.micomibite.tastytiles.datagen;
 
+import com.mojang.serialization.MapCodec;
 import net.micomibite.tastytiles.TastyTiles;
 import net.micomibite.tastytiles.block.ModBlocks;
+import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Function;
+
+import static net.minecraft.world.level.levelgen.structure.Structure.simpleCodec;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -284,6 +297,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.PINK_VINE_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.PINK_VINE_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
 
+        genSixSBI(ModBlocks.PINK_BLOOM_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_bloom_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_BLOOM_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_BLOOM_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_BLOOM_SPRING_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
@@ -323,6 +340,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(block, models().getExistingFile(modLoc(existingModelPath)));
     }
 
+    private void genSixSBI(SixDirectionBlock block, ModelFile model) {
+        directionalBlock(block, model);
+
+        String stringName = BuiltInRegistries.BLOCK.getKey(block).getPath();
+        String existingModelPath = "block/"+stringName;
+        simpleBlockItem(block, models().getExistingFile(modLoc(existingModelPath)));
+    }
+
 
     private void genSimpleSlabsSBI(Block block, Block parentBlock) {
         //For slabs which have a homogenous texture and solid model
@@ -332,5 +357,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         String existingModelPath = "block/"+stringName;
         simpleBlockItem(block, models().getExistingFile(modLoc(existingModelPath)));
+    }
+
+    public static class SixDirectionBlock extends DirectionalBlock {
+
+        private static MapCodec<SixDirectionBlock> codec() {return null;}
+
+        public SixDirectionBlock(BlockBehaviour.Properties properties) { super(properties); }
+
+        protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+            builder.add(FACING);
+        }
+
+        public BlockState getStateForPlacement(BlockPlaceContext context) {
+            Direction clickedFaceDirection = context.getClickedFace();
+            return this.defaultBlockState().setValue(FACING, clickedFaceDirection);
+        }
     }
 }
