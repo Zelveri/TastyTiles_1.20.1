@@ -143,8 +143,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.PINK_SPRING_TILE_WALL, ModBlocks.PINK_SPRING_TILE);
         evenSimplerBlockItem(ModBlocks.PINK_VINE_SPRING_TILE_STAIRS);
         wallItem(ModBlocks.PINK_VINE_SPRING_TILE_WALL, ModBlocks.PINK_VINE_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_SPROUT_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.PINK_SPROUT_SPRING_TILE_WALL, ModBlocks.PINK_SPROUT_SPRING_TILE);
         evenSimplerBlockItem(ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS);
         wallSixItem(ModBlocks.PINK_BLOOM_SPRING_TILE_WALL, ModBlocks.PINK_BLOOM_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_CORNER_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.PINK_CORNER_SPRING_TILE_WALL, ModBlocks.PINK_CORNER_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL, ModBlocks.PINK_FLOWER_SPRING_TILE);
 
     }
 

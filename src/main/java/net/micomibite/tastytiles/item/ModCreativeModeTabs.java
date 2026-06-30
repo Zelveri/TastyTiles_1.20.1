@@ -502,6 +502,14 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.PINK_VINE_SPRING_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.PINK_SPROUT_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_WALL.get());
+
             pOutput.accept(ModBlocks.PINK_BLOOM_SPRING_TILE.get());
 
             pOutput.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_SLAB.get());
@@ -509,6 +517,22 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS.get());
 
             pOutput.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PINK_CORNER_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_CORNER_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_CORNER_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_CORNER_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.PINK_FLOWER_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL.get());
 
         })
         .build());

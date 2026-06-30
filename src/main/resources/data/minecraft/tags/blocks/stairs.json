@@ -59,6 +59,9 @@
     "tastytiles:grid_black_tile_stair",
     "tastytiles:pink_spring_tile_stair",
     "tastytiles:pink_vine_spring_tile_stair",
-    "tastytiles:pink_bloom_spring_tile_stair"
+    "tastytiles:pink_sprout_spring_tile_stair",
+    "tastytiles:pink_bloom_spring_tile_stair",
+    "tastytiles:pink_corner_spring_tile_stair",
+    "tastytiles:pink_flower_spring_tile_stair"
   ]
 }

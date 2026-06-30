@@ -297,9 +297,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.PINK_VINE_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.PINK_VINE_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_VINE_SPRING_TILE.get()));
 
+        genSixSBI(ModBlocks.PINK_SPROUT_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_sprout_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.PINK_SPROUT_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_SPROUT_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_SPROUT_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_SPROUT_SPRING_TILE.get()));
+
         genSixSBI(ModBlocks.PINK_BLOOM_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_bloom_spring_tile", "solid") );
         stairsBlock(((StairBlock) ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_BLOOM_SPRING_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.PINK_BLOOM_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_BLOOM_SPRING_TILE.get()));
+
+        blockWithItem(ModBlocks.PINK_CORNER_SPRING_TILE);
+        stairsBlock(((StairBlock) ModBlocks.PINK_CORNER_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_CORNER_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_CORNER_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_CORNER_SPRING_TILE.get()));
+
+        genSixSBI(ModBlocks.PINK_FLOWER_SPRING_TILE.get(), buildSimpleBlockWithRenderType("pink_flower_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_FLOWER_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.PINK_FLOWER_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_FLOWER_SPRING_TILE.get()));
 
     }
 
