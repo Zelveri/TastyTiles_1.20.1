@@ -1006,6 +1006,101 @@ public class ModBlocks {
     public static final RegistryObject<Block> PINK_FLOWER_SPRING_TILE_WALL = registerBlock("pink_flower_spring_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
 
+    //YELLOW SPRING TILES
+    public static final RegistryObject<Block> YELLOW_SPRING_TILE = registerBlock("yellow_spring_tile",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_SPRING_TILE_SLAB = registerBlock("yellow_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_SPRING_TILE_STAIRS = registerBlock("yellow_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_SPRING_TILE_WALL = registerBlock("yellow_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //YELLOW VINE SPRING TILES
+    public static final RegistryObject<Block> YELLOW_VINE_SPRING_TILE = registerBlock("yellow_vine_spring_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_PILLAR).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_VINE_SPRING_TILE_SLAB = registerBlock("yellow_vine_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_VINE_SPRING_TILE_STAIRS = registerBlock("yellow_vine_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_VINE_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_VINE_SPRING_TILE_WALL = registerBlock("yellow_vine_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //YELLOW SPROUT SPRING TILES
+    public static final RegistryObject<ModBlockStateProvider.SixDirectionBlock> YELLOW_SPROUT_SPRING_TILE = registerBlock("yellow_sprout_spring_tile",
+            () -> new ModBlockStateProvider.SixDirectionBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_SPROUT_SPRING_TILE_SLAB = registerBlock("yellow_sprout_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_SPROUT_SPRING_TILE_STAIRS = registerBlock("yellow_sprout_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_SPROUT_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_SPROUT_SPRING_TILE_WALL = registerBlock("yellow_sprout_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //YELLOW BLOOM SPRING TILES
+    public static final RegistryObject<ModBlockStateProvider.SixDirectionBlock> YELLOW_BLOOM_SPRING_TILE = registerBlock("yellow_bloom_spring_tile",
+            () -> new ModBlockStateProvider.SixDirectionBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_BLOOM_SPRING_TILE_SLAB = registerBlock("yellow_bloom_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_BLOOM_SPRING_TILE_STAIRS = registerBlock("yellow_bloom_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_BLOOM_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_BLOOM_SPRING_TILE_WALL = registerBlock("yellow_bloom_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //YELLOW CORNER TILE
+    public static final RegistryObject<Block> YELLOW_CORNER_SPRING_TILE = registerBlock("yellow_corner_spring_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_CORNER_SPRING_TILE_SLAB = registerBlock("yellow_corner_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_CORNER_SPRING_TILE_STAIRS = registerBlock("yellow_corner_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_CORNER_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_CORNER_SPRING_TILE_WALL = registerBlock("yellow_corner_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
+    //YELLOW FLOWER SPRING TILES
+    public static final RegistryObject<ModBlockStateProvider.SixDirectionBlock> YELLOW_FLOWER_SPRING_TILE = registerBlock("yellow_flower_spring_tile",
+            () -> new ModBlockStateProvider.SixDirectionBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_FLOWER_SPRING_TILE_SLAB = registerBlock("yellow_flower_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_FLOWER_SPRING_TILE_STAIRS = registerBlock("yellow_flower_spring_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_FLOWER_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final RegistryObject<Block> YELLOW_FLOWER_SPRING_TILE_WALL = registerBlock("yellow_flower_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).sound(SoundType.DEEPSLATE_TILES)));
+
     //Functions for making this actually work
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

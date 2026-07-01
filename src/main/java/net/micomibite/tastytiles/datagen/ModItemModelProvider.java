@@ -151,6 +151,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.PINK_CORNER_SPRING_TILE_WALL, ModBlocks.PINK_CORNER_SPRING_TILE);
         evenSimplerBlockItem(ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS);
         wallSixItem(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL, ModBlocks.PINK_FLOWER_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.YELLOW_SPRING_TILE_WALL, ModBlocks.YELLOW_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_VINE_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.YELLOW_VINE_SPRING_TILE_WALL, ModBlocks.YELLOW_VINE_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_SPROUT_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.YELLOW_SPROUT_SPRING_TILE_WALL, ModBlocks.YELLOW_SPROUT_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_BLOOM_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.YELLOW_BLOOM_SPRING_TILE_WALL, ModBlocks.YELLOW_BLOOM_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_CORNER_SPRING_TILE_STAIRS);
+        wallItem(ModBlocks.YELLOW_CORNER_SPRING_TILE_WALL, ModBlocks.YELLOW_CORNER_SPRING_TILE);
+        evenSimplerBlockItem(ModBlocks.YELLOW_FLOWER_SPRING_TILE_STAIRS);
+        wallSixItem(ModBlocks.YELLOW_FLOWER_SPRING_TILE_WALL, ModBlocks.YELLOW_FLOWER_SPRING_TILE);
 
     }
 

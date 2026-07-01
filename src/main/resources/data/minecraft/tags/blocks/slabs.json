@@ -63,6 +63,12 @@
     "tastytiles:pink_sprout_spring_tile_slab",
     "tastytiles:pink_bloom_spring_tile_slab",
     "tastytiles:pink_corner_spring_tile_slab",
-    "tastytiles:pink_flower_spring_tile_slab"
+    "tastytiles:pink_flower_spring_tile_slab",
+    "tastytiles:yellow_spring_tile_slab",
+    "tastytiles:yellow_vine_spring_tile_slab",
+    "tastytiles:yellow_sprout_spring_tile_slab",
+    "tastytiles:yellow_bloom_spring_tile_slab",
+    "tastytiles:yellow_corner_spring_tile_slab",
+    "tastytiles:yellow_flower_spring_tile_slab"
   ]
 }

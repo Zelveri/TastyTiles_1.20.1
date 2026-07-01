@@ -313,6 +313,30 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.PINK_FLOWER_SPRING_TILE.get()));
         wallBlock(((WallBlock) ModBlocks.PINK_FLOWER_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.PINK_FLOWER_SPRING_TILE.get()));
 
+        genHorizontalSBI(ModBlocks.YELLOW_SPRING_TILE.get(), buildSimpleBlockWithRenderType("yellow_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_SPRING_TILE.get()));
+
+        genPillarRotationSBI((RotatedPillarBlock) ModBlocks.YELLOW_VINE_SPRING_TILE.get(), buildSimpleBlockWithRenderType("yellow_vine_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_VINE_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_VINE_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_VINE_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_VINE_SPRING_TILE.get()));
+
+        genSixSBI(ModBlocks.YELLOW_SPROUT_SPRING_TILE.get(), buildSimpleBlockWithRenderType("yellow_sprout_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_SPROUT_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_SPROUT_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_SPROUT_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_SPROUT_SPRING_TILE.get()));
+
+        genSixSBI(ModBlocks.YELLOW_BLOOM_SPRING_TILE.get(), buildSimpleBlockWithRenderType("yellow_bloom_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_BLOOM_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_BLOOM_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_BLOOM_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_BLOOM_SPRING_TILE.get()));
+
+        blockWithItem(ModBlocks.YELLOW_CORNER_SPRING_TILE);
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_CORNER_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_CORNER_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_CORNER_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_CORNER_SPRING_TILE.get()));
+
+        genSixSBI(ModBlocks.YELLOW_FLOWER_SPRING_TILE.get(), buildSimpleBlockWithRenderType("yellow_flower_spring_tile", "solid") );
+        stairsBlock(((StairBlock) ModBlocks.YELLOW_FLOWER_SPRING_TILE_STAIRS.get()), blockTexture(ModBlocks.YELLOW_FLOWER_SPRING_TILE.get()));
+        wallBlock(((WallBlock) ModBlocks.YELLOW_FLOWER_SPRING_TILE_WALL.get()), blockTexture(ModBlocks.YELLOW_FLOWER_SPRING_TILE.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

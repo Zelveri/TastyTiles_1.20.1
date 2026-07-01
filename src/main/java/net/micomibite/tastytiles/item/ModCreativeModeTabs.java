@@ -534,6 +534,54 @@ public class ModCreativeModeTabs {
 
             pOutput.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL.get());
 
+            pOutput.accept(ModBlocks.YELLOW_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.YELLOW_VINE_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_WALL.get());
+
+            pOutput.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE.get());
+
+            pOutput.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_SLAB.get());
+
+            pOutput.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_STAIRS.get());
+
+            pOutput.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_WALL.get());
+
         })
         .build());
 
