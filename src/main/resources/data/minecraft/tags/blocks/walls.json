@@ -69,6 +69,13 @@
     "tastytiles:yellow_sprout_spring_tile_wall",
     "tastytiles:yellow_bloom_spring_tile_wall",
     "tastytiles:yellow_corner_spring_tile_wall",
-    "tastytiles:yellow_flower_spring_tile_wall"
+    "tastytiles:yellow_flower_spring_tile_wall",
+    "tastytiles:choco_cut_tile_wall",
+    "tastytiles:choco_cut_split_tile_wall",
+    "tastytiles:choco_cut_diamond_tile_wall",
+    "tastytiles:choco_cut_heart_tile_wall",
+    "tastytiles:choco_cut_circle_tile_wall",
+    "tastytiles:choco_cut_triangle_tile_wall",
+    "tastytiles:choco_cut_square_tile_wall"
   ]
 }

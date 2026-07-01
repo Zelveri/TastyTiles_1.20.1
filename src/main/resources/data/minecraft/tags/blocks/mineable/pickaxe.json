@@ -340,6 +340,41 @@
     "tastytiles:yellow_flower_spring_tile",
     "tastytiles:yellow_flower_spring_tile_slab",
     "tastytiles:yellow_flower_spring_tile_stairs",
-    "tastytiles:yellow_flower_spring_tile_wall"
+    "tastytiles:yellow_flower_spring_tile_wall",
+
+    "tastytiles:choco_cut_tile",
+    "tastytiles:choco_cut_tile_slab",
+    "tastytiles:choco_cut_tile_stairs",
+    "tastytiles:choco_cut_tile_wall",
+
+    "tastytiles:choco_cut_split_tile",
+    "tastytiles:choco_cut_split_tile_slab",
+    "tastytiles:choco_cut_split_tile_stairs",
+    "tastytiles:choco_cut_split_tile_wall",
+
+    "tastytiles:choco_cut_diamond_tile",
+    "tastytiles:choco_cut_diamond_tile_slab",
+    "tastytiles:choco_cut_diamond_tile_stairs",
+    "tastytiles:choco_cut_diamond_tile_wall",
+
+    "tastytiles:choco_cut_heart_tile",
+    "tastytiles:choco_cut_heart_tile_slab",
+    "tastytiles:choco_cut_heart_tile_stairs",
+    "tastytiles:choco_cut_heart_tile_wall",
+
+    "tastytiles:choco_cut_circle_tile",
+    "tastytiles:choco_cut_circle_tile_slab",
+    "tastytiles:choco_cut_circle_tile_stairs",
+    "tastytiles:choco_cut_circle_tile_wall",
+
+    "tastytiles:choco_cut_triangle_tile",
+    "tastytiles:choco_cut_triangle_tile_slab",
+    "tastytiles:choco_cut_triangle_tile_stairs",
+    "tastytiles:choco_cut_triangle_tile_wall",
+
+    "tastytiles:choco_cut_square_tile",
+    "tastytiles:choco_cut_square_tile_slab",
+    "tastytiles:choco_cut_square_tile_stairs",
+    "tastytiles:choco_cut_square_tile_wall"
   ]
 }
